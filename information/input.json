@@ -1,0 +1,4628 @@
+{
+  "data": {
+    "roomsContent": [
+      {
+        "uuid": "288400",
+        "name": "Cabane bobo & spa",
+        "category": "cabin",
+        "description": "Luxueuse cabane sur pilotis à la déco bohème avec spa privatif pour de belles vacances en famille sous le signe de la nature et du bien-être.<br>DESCRIPTIF : - Capacité d'accueil : 5 personnes (2 adultes + 3 enfants) - 1 chambre avec 1 lit double 160 x 200 - 1 chambre avec 2 lits simples (80 x 190) + 1 lit suspendu (80 x 190) - salle de bain avec lavabo et douche à l'talienne - WC séparés - espace séjour avec cuisine équipée d'un réfrigérateur congélateur vintage, lave-vaisselle, four micro-ondes et cafetière expresso vintage - grande terrasse couverte avec vue sur le lac<br>EQUIPEMENTS CONFORT : - climatisation - spa privatif sur la terrasse - transats, table et chaises, coin salon sur la terrasse - réfrigérateur/congélateur, lave-vaisselle, four micro-ondes, cafetière vintage à dosettes, bouilloire électrique, vaisselle et ustensiles<br>SERVICES INCLUS : - Wifi - draps de bain et 2 peignoirs - lits faits à l'arrivée<br>SUPERFICIE : La superficie totale est de 53 m², elle inclut la superficie de la surface intérieure (27 m²) et la surface de la terrasse couverte (26 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [
+          ["Double bed"],
+          ["Single bed", "Single bed", "Single bed"]
+        ],
+        "position": 0,
+        "dimensions": {
+          "sqm": 53,
+          "sqft": 570.28
+        },
+        "amenities": [
+          {
+            "name": "Cuisine équipée",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Air conditionné",
+            "icon": "icon-air-conditioned",
+            "featured": false
+          },
+          {
+            "name": "Toilettes séparées",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Coffre-fort dans la chambre",
+            "icon": "icon-room-safe",
+            "featured": false
+          },
+          {
+            "name": "Balcon",
+            "icon": "icon-balcony",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Lave-vaisselle",
+            "icon": "icon-dishwasher",
+            "featured": false
+          },
+          {
+            "name": "Jacuzzi",
+            "icon": "icon-jacuzzi",
+            "featured": false
+          },
+          {
+            "name": "Sèche-cheveux",
+            "icon": "icon-hairdryer",
+            "featured": false
+          },
+          {
+            "name": "Machine à expresso",
+            "icon": "icon-espresso-machine",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Vaisselles et couverts",
+            "icon": "icon-dining-setting",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079370/1079370/91651223-1fdf-4e5e-828c-e488688bd08b.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079370/1079370/91651223-1fdf-4e5e-828c-e488688bd08b.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070361/1070361/3179ae5b-18a2-4af1-bb4f-e00cbd75ce21.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070361/1070361/3179ae5b-18a2-4af1-bb4f-e00cbd75ce21.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070365/1070365/76095b2c-9fa5-4f39-880b-73a7235d3200.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070365/1070365/76095b2c-9fa5-4f39-880b-73a7235d3200.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079371/1079371/2975d690-8b05-48b9-bbc2-ee3219cc931a.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079371/1079371/2975d690-8b05-48b9-bbc2-ee3219cc931a.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079368/1079368/cceb0a56-7131-4744-8894-6aeabdd671a5.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079368/1079368/cceb0a56-7131-4744-8894-6aeabdd671a5.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079367/1079367/da6829a6-90ba-4129-92f2-22a68f5e8fb1.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079367/1079367/da6829a6-90ba-4129-92f2-22a68f5e8fb1.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079369/1079369/75915ff1-811f-4ce5-a6d8-30837b4e4cbe.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079369/1079369/75915ff1-811f-4ce5-a6d8-30837b4e4cbe.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070359/1070359/b5862b7e-ec04-4cac-b6ee-c225776dadb1.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070359/1070359/b5862b7e-ec04-4cac-b6ee-c225776dadb1.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079375/1079375/f03bd420-4f95-4f8c-a0aa-ca462a8498ac.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079375/1079375/f03bd420-4f95-4f8c-a0aa-ca462a8498ac.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079372/1079372/c7c4b01d-f266-459b-80b2-3318dcc97207.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079372/1079372/c7c4b01d-f266-459b-80b2-3318dcc97207.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 9
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079374/1079374/1b71bf6e-e7c2-4016-ba29-59af20482334.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079374/1079374/1b71bf6e-e7c2-4016-ba29-59af20482334.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 10
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079376/1079376/fd987f75-0a34-4b23-ba22-8837602e905b.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079376/1079376/fd987f75-0a34-4b23-ba22-8837602e905b.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 11
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079373/1079373/398091ea-1529-408b-a17f-0501672272fe.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079373/1079373/398091ea-1529-408b-a17f-0501672272fe.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 12
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070358/1070358/45a91e09-b737-40d9-933a-eb200bc69013.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070358/1070358/45a91e09-b737-40d9-933a-eb200bc69013.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 13
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070357/1070357/8da69120-42f8-4830-a7ff-12fe2c17cab0.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070357/1070357/8da69120-42f8-4830-a7ff-12fe2c17cab0.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 14
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070356/1070356/1261e289-0d32-4ae1-82b2-875a46dac563.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070356/1070356/1261e289-0d32-4ae1-82b2-875a46dac563.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 15
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070364/1070364/aa5de195-1abe-4e9a-8655-049ffe5835c0.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070364/1070364/aa5de195-1abe-4e9a-8655-049ffe5835c0.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 16
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070360/1070360/5f8c1de9-0e80-452b-82a1-e7f09706352e.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070360/1070360/5f8c1de9-0e80-452b-82a1-e7f09706352e.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 17
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070355/1070355/e6f94188-d4b8-47ce-9848-532da1831acb.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070355/1070355/e6f94188-d4b8-47ce-9848-532da1831acb.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 18
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070363/1070363/b7dfea58-609a-48f5-99b4-d8e280b7cc08.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070363/1070363/b7dfea58-609a-48f5-99b4-d8e280b7cc08.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 19
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070362/1070362/24e3b79b-e851-4c73-b8c7-11645e104c66.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070362/1070362/24e3b79b-e851-4c73-b8c7-11645e104c66.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 20
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 5,
+        "rates": [
+          {
+            "uuid": "608930",
+            "name": "Hebergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 5,
+              "maxAdults": 4,
+              "maxChildren": 4,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609375",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 5,
+              "maxAdults": 4,
+              "maxChildren": 4,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609386",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 5,
+              "maxAdults": 4,
+              "maxChildren": 4,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288401",
+        "name": "Tente Expérience Africa",
+        "category": "room",
+        "description": "Décoration ambiance « out of Africa », literie hôtelière grand confort, tapis, matière et objets déco.<br>Une immense terrasse en bordure du lac avec espace lounge, cuisine extérieure et une superbe baignoire vintage. Annexé à la tente, une « cabane salle de bain », privative, avec douche, lavabo et WC.<br>La tente, luxueusement meublée, est une chambre équipée dun grand lit 200 x 160 et de 2 petits lits pour des enfants de moins de 12 ans (70x190).<br>La pièce de vie se trouve à lextérieur sous les chênes au bord du lac : cuisine avec plancha 2 feux, évier, réfrigérateur, four micro-ondes, bouilloire et cafetière à dosettes, table et chaises pour prendre vos repas sous les arbres, coin détente avec tapis et transats.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 25 m² - surface de la terrasse : 40 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed", "Rollaway bed available"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 65,
+          "sqft": 699.4
+        },
+        "amenities": [
+          {
+            "name": "Cuisine équipée",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Baignoire",
+            "icon": "icon-bath",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070063/1070063/728f38b5-7289-4a53-810f-42b5bad3117b.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070063/1070063/728f38b5-7289-4a53-810f-42b5bad3117b.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070062/1070062/e3927017-f917-4e1b-b7f2-3977670ba43b.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070062/1070062/e3927017-f917-4e1b-b7f2-3977670ba43b.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070064/1070064/3abc0281-b816-45cf-8ecf-ef00fd0a2743.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070064/1070064/3abc0281-b816-45cf-8ecf-ef00fd0a2743.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070066/1070066/d5aeedea-1281-4859-a721-4c5c866427e2.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070066/1070066/d5aeedea-1281-4859-a721-4c5c866427e2.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070065/1070065/1c10e254-57a1-460d-be80-11a68b9cc7af.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070065/1070065/1c10e254-57a1-460d-be80-11a68b9cc7af.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070070/1070070/0603d45f-e26f-42cf-88aa-3271d69af6a9.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070070/1070070/0603d45f-e26f-42cf-88aa-3271d69af6a9.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070069/1070069/dbb1885e-29b4-44ab-8927-91ba1aa28ef0.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070069/1070069/dbb1885e-29b4-44ab-8927-91ba1aa28ef0.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070067/1070067/e9699245-87c5-48c4-b065-78013b0a10fc.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070067/1070067/e9699245-87c5-48c4-b065-78013b0a10fc.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070068/1070068/63f301ea-2854-424b-b565-d58d54644c0d.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070068/1070068/63f301ea-2854-424b-b565-d58d54644c0d.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608941",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 2,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609463",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 2,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609483",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 2,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288402",
+        "name": "Jungle Dôme & spa",
+        "category": "suite",
+        "description": "Un cocon tout rond avec vue sur le ciel étoilé pour un pur moment de déconnexion à deux.<br>Salle de bain privative, literie hôtelière grand confort, terrasse vue lac, climatisation et baignoire balnéo.<br>Chut ! Ne partagez pas le secret !<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 28 m² - surface de la terrasse : 12 m²).<br>Possibilité d'un couchage sur lit banquette pour un enfant de moins de 10 ans (supplément de 16  par nuit, à signaler en commentaire à la réservation).",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Queen / Twin"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 40,
+          "sqft": 430.4
+        },
+        "amenities": [
+          {
+            "name": "Cafetière / Théière",
+            "icon": "icon-tea-coffee-maker",
+            "featured": false
+          },
+          {
+            "name": "Air conditionné",
+            "icon": "icon-air-conditioned",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Sèche-cheveux",
+            "icon": "icon-hairdryer",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Kitchenette",
+            "icon": "icon-kitchenette",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Spa",
+            "icon": "icon-spa",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070042/1070042/dbd175a5-170b-4d66-a771-7db519cfe58c.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070042/1070042/dbd175a5-170b-4d66-a771-7db519cfe58c.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070037/1070037/cfdf6e80-e769-4241-b7d9-3d5a6fbd9691.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070037/1070037/cfdf6e80-e769-4241-b7d9-3d5a6fbd9691.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070034/1070034/cf38bc12-ed96-4dc2-879b-131e617086a3.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070034/1070034/cf38bc12-ed96-4dc2-879b-131e617086a3.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070033/1070033/6c437146-6d9c-4387-8b0e-2def9362be9b.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070033/1070033/6c437146-6d9c-4387-8b0e-2def9362be9b.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070036/1070036/ba956a70-46f4-4b46-b2da-88551e8a93e2.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070036/1070036/ba956a70-46f4-4b46-b2da-88551e8a93e2.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070041/1070041/59b8a4b4-1729-4ec4-81f0-20275d99b6e5.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070041/1070041/59b8a4b4-1729-4ec4-81f0-20275d99b6e5.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070038/1070038/4db7fdf9-37cb-42ac-903a-e737b0d3e872.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070038/1070038/4db7fdf9-37cb-42ac-903a-e737b0d3e872.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070039/1070039/39eab9d4-a493-481f-9a1d-363a69f197d0.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070039/1070039/39eab9d4-a493-481f-9a1d-363a69f197d0.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070035/1070035/bdbd798d-e1b4-4e37-a9e8-3be293fedef1.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070035/1070035/bdbd798d-e1b4-4e37-a9e8-3be293fedef1.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070040/1070040/0ac6fa5d-1abd-4f57-9bb6-b89dd467cbb4.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070040/1070040/0ac6fa5d-1abd-4f57-9bb6-b89dd467cbb4.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 9
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070045/1070045/53e3373f-0b06-4d76-919f-44c9d1b414ff.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070045/1070045/53e3373f-0b06-4d76-919f-44c9d1b414ff.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 10
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070046/1070046/a1041e96-03c1-4534-ae9e-ac39bb654589.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070046/1070046/a1041e96-03c1-4534-ae9e-ac39bb654589.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 11
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070047/1070047/10d0dca5-1d15-4373-90b7-d2bf028f73be.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070047/1070047/10d0dca5-1d15-4373-90b7-d2bf028f73be.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 12
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070044/1070044/1c494aeb-7a30-429a-9b7c-0c75c38963a1.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070044/1070044/1c494aeb-7a30-429a-9b7c-0c75c38963a1.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 13
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070043/1070043/b7ca8c99-8a87-47c6-9cc8-ed2f42cbbaa2.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070043/1070043/b7ca8c99-8a87-47c6-9cc8-ed2f42cbbaa2.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 14
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070048/1070048/b115687a-fa73-4604-8f90-c5f849116116.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070048/1070048/b115687a-fa73-4604-8f90-c5f849116116.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 15
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608937",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 0,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609457",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 0,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609479",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 0,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288403",
+        "name": "Cabane Chic Lacustre & spa",
+        "category": "suite",
+        "description": "Véritable suite hôtelière propice aux nuits romantiques, la Cabane Chic Lacustre & spa est équipée d'une salle de bain privative, un lit queen size haut de gamme, et une grande terrasse sur pilotis au-dessus du lac avec baignoire balneo, espace repas, transats et fauteuil suspendu. La cabane est également équipée d'un petit réfrigérateur, four micro-ondes, bouilloire électrique et cafetière nespresso.<br>Inspirée de nos voyages, chaque cabane exprime une atmosphère unique qui vous emmènera dans les iles Galapagos, Cyclades ou Zanzibar.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse couverte (surface intérieure : 16 m² - surface de la terrasse : 16 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 32,
+          "sqft": 344.32
+        },
+        "amenities": [
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Air conditionné",
+            "icon": "icon-air-conditioned",
+            "featured": false
+          },
+          {
+            "name": "Cafetière / Théière",
+            "icon": "icon-tea-coffee-maker",
+            "featured": false
+          },
+          {
+            "name": "Balcon",
+            "icon": "icon-balcony",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Peignoirs fournis",
+            "icon": "icon-bathrobes-on-request",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Sèche-cheveux",
+            "icon": "icon-hairdryer",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Kitchenette",
+            "icon": "icon-kitchenette",
+            "featured": false
+          },
+          {
+            "name": "Baignoire chauffée",
+            "icon": "icon-hot-tub",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079392/1079392/80fb0197-0523-4870-a125-148003636104.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079392/1079392/80fb0197-0523-4870-a125-148003636104.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079391/1079391/879c97dd-ff9b-437e-8d12-aa83bb91bb75.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079391/1079391/879c97dd-ff9b-437e-8d12-aa83bb91bb75.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079390/1079390/956a8220-b53b-448d-9912-4001fce68e91.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079390/1079390/956a8220-b53b-448d-9912-4001fce68e91.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079388/1079388/449cbede-4981-4a5e-a10f-2f2e52797aed.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079388/1079388/449cbede-4981-4a5e-a10f-2f2e52797aed.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079389/1079389/e035a590-cfc7-4c9c-9c6e-a40d24a5fb34.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079389/1079389/e035a590-cfc7-4c9c-9c6e-a40d24a5fb34.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079395/1079395/13a3d072-f594-41aa-87fc-343345bb6f7b.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079395/1079395/13a3d072-f594-41aa-87fc-343345bb6f7b.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079397/1079397/d679889a-8910-4e02-9b24-c4b585612a17.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079397/1079397/d679889a-8910-4e02-9b24-c4b585612a17.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079396/1079396/9ccaec6a-21ac-4d5f-9359-4262eb201ca9.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079396/1079396/9ccaec6a-21ac-4d5f-9359-4262eb201ca9.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079394/1079394/0ca4da90-6435-4da0-940c-85c066d75164.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079394/1079394/0ca4da90-6435-4da0-940c-85c066d75164.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079393/1079393/ece8ca25-ff91-417e-80b4-da01e6fc765e.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079393/1079393/ece8ca25-ff91-417e-80b4-da01e6fc765e.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 9
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079401/1079401/91cdcda3-c350-4543-bbac-33f3580f3bc3.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079401/1079401/91cdcda3-c350-4543-bbac-33f3580f3bc3.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 10
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079398/1079398/d747e51a-e032-4a8b-a7e8-e3ea323f9767.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079398/1079398/d747e51a-e032-4a8b-a7e8-e3ea323f9767.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 11
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079399/1079399/1c9c1568-6d45-444f-b7c3-c223c0fc9791.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079399/1079399/1c9c1568-6d45-444f-b7c3-c223c0fc9791.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 12
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079402/1079402/b0c3babc-5a98-4e27-b8a9-574cdaf2a595.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079402/1079402/b0c3babc-5a98-4e27-b8a9-574cdaf2a595.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 13
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079400/1079400/813a1542-ddf0-489d-912d-ab35a9705772.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079400/1079400/813a1542-ddf0-489d-912d-ab35a9705772.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 14
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079405/1079405/7999f8a8-c537-4e0d-a1cf-d7e580f6b824.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079405/1079405/7999f8a8-c537-4e0d-a1cf-d7e580f6b824.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 15
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079406/1079406/1e393e6b-1e8d-4969-a226-c191df04ec65.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079406/1079406/1e393e6b-1e8d-4969-a226-c191df04ec65.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 16
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079403/1079403/e3bd3a4a-c1fb-4e41-8d30-c0d923989719.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079403/1079403/e3bd3a4a-c1fb-4e41-8d30-c0d923989719.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 17
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079407/1079407/5c311a24-9269-43c7-89fd-ee160854fca9.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079407/1079407/5c311a24-9269-43c7-89fd-ee160854fca9.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 18
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079404/1079404/2d84cb7c-3400-45e5-93c1-9c26742ed255.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1079404/1079404/2d84cb7c-3400-45e5-93c1-9c26742ed255.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 19
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069979/1069979/046e8c09-b119-4213-be89-92a1991183ad.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069979/1069979/046e8c09-b119-4213-be89-92a1991183ad.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 20
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069976/1069976/002c056a-cf45-4de7-b8cb-6d12a6c54921.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069976/1069976/002c056a-cf45-4de7-b8cb-6d12a6c54921.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 21
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069972/1069972/2825c166-800e-48a6-ad13-46ff3e834daf.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069972/1069972/2825c166-800e-48a6-ad13-46ff3e834daf.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 22
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069975/1069975/d307b94a-5103-47a2-807e-42b1c597d70c.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069975/1069975/d307b94a-5103-47a2-807e-42b1c597d70c.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 23
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069978/1069978/cc57d025-2155-48a9-b5f9-d794df74fd51.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069978/1069978/cc57d025-2155-48a9-b5f9-d794df74fd51.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 24
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069980/1069980/681f9566-1803-4f6a-a672-98f74098b71a.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069980/1069980/681f9566-1803-4f6a-a672-98f74098b71a.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 25
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1066630/1066630/346bcca4-bed3-44ca-95f7-5e36047b9f68.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1066630/1066630/346bcca4-bed3-44ca-95f7-5e36047b9f68.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 26
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "rates": [
+          {
+            "uuid": "609352",
+            "name": "Hébergement Seul",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 2,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609450",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609471",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288404",
+        "name": "Glamping Dreamlodge",
+        "category": "cabin",
+        "description": "Espace, confort et dépaysement pour cette tente luxueusement aménagée pour des vacances de pleine nature en tribu et au bord de l'eau.<br>1 chambre avec un grand lit 200 x 160 et dressing, 1 chambre enfants avec 1 lit simple et 2 lits superposés, 1 lit cabane de 200 x 160 avec en dessous son petit coin de jeux pour les enfants. Ils vont adorer !<br>Cuisine bar avec 4 plaques gaz, grand réfrigérateur avec compartiment congélateur, four micro-ondes, bouilloire électrique, cafetière à dosettes. Grande table à manger et coin salon pour se retrouver le soir. Salle de bain complète avec douche à litalienne, WC et lavabo.<br>Sur la terrasse qui surplombe le lac : barbecue plancha, tabourets de bar et 1 salon lounge. Sur l'herbe, table extérieure, chaises longues et hamac.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 49 m² - surface de la terrasse : 15 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"], ["Single bed", "Bunk bed"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 64,
+          "sqft": 688.64
+        },
+        "amenities": [
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Balcon",
+            "icon": "icon-balcony",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Sèche-cheveux",
+            "icon": "icon-hairdryer",
+            "featured": false
+          },
+          {
+            "name": "Chiens acceptés",
+            "icon": "icon-dogs-accepted",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Machine à expresso",
+            "icon": "icon-espresso-machine",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Vaisselles et couverts",
+            "icon": "icon-dining-setting",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Coffre-fort dans la chambre",
+            "icon": "icon-room-safe",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070025/1070025/ecc17738-804e-42cd-9441-3d4b6bffc2ea.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070025/1070025/ecc17738-804e-42cd-9441-3d4b6bffc2ea.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070022/1070022/81ad6c52-5c9e-4f83-bbc2-c05f21cce086.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070022/1070022/81ad6c52-5c9e-4f83-bbc2-c05f21cce086.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070018/1070018/308386f8-568d-4c25-b9ac-15820b55f872.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070018/1070018/308386f8-568d-4c25-b9ac-15820b55f872.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070019/1070019/0d5328f1-2da1-418e-a0d4-2820006470c8.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070019/1070019/0d5328f1-2da1-418e-a0d4-2820006470c8.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070020/1070020/eafaea1a-442e-4395-b2c4-82173ec0756d.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070020/1070020/eafaea1a-442e-4395-b2c4-82173ec0756d.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070024/1070024/b4608811-7e60-4b13-a2d1-20139f6d29c3.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070024/1070024/b4608811-7e60-4b13-a2d1-20139f6d29c3.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070028/1070028/b51f2745-3ac4-4870-91ff-a7dca9e4b812.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070028/1070028/b51f2745-3ac4-4870-91ff-a7dca9e4b812.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070030/1070030/0f7738a1-382e-496b-a447-2a9d1b07bc41.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070030/1070030/0f7738a1-382e-496b-a447-2a9d1b07bc41.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070021/1070021/d34a6972-9bd0-4fe5-96ec-6668167dbe1e.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070021/1070021/d34a6972-9bd0-4fe5-96ec-6668167dbe1e.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070023/1070023/1fcbcf49-b1a1-497d-b5c3-7e450c0c9a09.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070023/1070023/1fcbcf49-b1a1-497d-b5c3-7e450c0c9a09.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 9
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070027/1070027/cbf1e93f-bd8f-4a16-8910-056a3499f7b6.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070027/1070027/cbf1e93f-bd8f-4a16-8910-056a3499f7b6.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 10
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070017/1070017/76fd6375-7409-48fe-bf69-7cd3fe16ddf8.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070017/1070017/76fd6375-7409-48fe-bf69-7cd3fe16ddf8.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 11
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070016/1070016/54684707-c22b-46db-bd25-a9b4e8d758f6.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070016/1070016/54684707-c22b-46db-bd25-a9b4e8d758f6.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 12
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070026/1070026/155ed765-2350-46a0-b868-7095e12e0235.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070026/1070026/155ed765-2350-46a0-b868-7095e12e0235.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 13
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070029/1070029/727e2cf2-e5dc-43cf-9ece-d949e64c24e4.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070029/1070029/727e2cf2-e5dc-43cf-9ece-d949e64c24e4.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 14
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070031/1070031/45410013-834a-4e6c-817a-c97e480c8d59.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070031/1070031/45410013-834a-4e6c-817a-c97e480c8d59.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 15
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 7,
+        "rates": [
+          {
+            "uuid": "608936",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 7,
+              "adultRequired": true,
+              "maxOccupants": 7,
+              "maxAdults": 6,
+              "maxChildren": 6,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609456",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 7,
+              "maxAdults": 6,
+              "maxChildren": 6,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609478",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 7,
+              "maxAdults": 6,
+              "maxChildren": 6,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288405",
+        "name": "Premium Family Cottage",
+        "category": "bungalow",
+        "description": "Confort ultime pour des vacances sous le signe du luxe : 3 chambres, 2 salles de bain, lave vaisselle, climatisation, sèche-cheveux, coffre-fort, TV. Immense terrasse semi-couverte vue lac avec coin salon, plancha et transats de plage.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 36 m² - surface de la terrasse : 22 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "2",
+        "bedrooms": [
+          ["Double bed"],
+          ["Double bed"],
+          ["Single bed", "Single bed"]
+        ],
+        "position": 0,
+        "dimensions": {
+          "sqm": 58,
+          "sqft": 624.08
+        },
+        "amenities": [
+          {
+            "name": "Coffre-fort dans la chambre",
+            "icon": "icon-room-safe",
+            "featured": false
+          },
+          {
+            "name": "Air conditionné",
+            "icon": "icon-air-conditioned",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Sèche-cheveux",
+            "icon": "icon-hairdryer",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Cuisine",
+            "icon": "icon-kitchen",
+            "featured": false
+          },
+          {
+            "name": "Chiens acceptés",
+            "icon": "icon-dogs-accepted",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Vaisselles et couverts",
+            "icon": "icon-dining-setting",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Toilettes séparées",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070348/1070348/77645e65-ddd5-4926-8877-0b6a239da49b.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070348/1070348/77645e65-ddd5-4926-8877-0b6a239da49b.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070349/1070349/78ca4bfe-6410-49a7-8050-d7662bb7cfc3.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070349/1070349/78ca4bfe-6410-49a7-8050-d7662bb7cfc3.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070352/1070352/dc05a48e-bd31-4bb1-959a-4494ea8df6da.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070352/1070352/dc05a48e-bd31-4bb1-959a-4494ea8df6da.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070351/1070351/4737a54b-5ddc-4619-9a3e-b61318ebe6c2.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070351/1070351/4737a54b-5ddc-4619-9a3e-b61318ebe6c2.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070350/1070350/b1c67a5d-5d49-4788-b9c9-661a66d86ed0.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070350/1070350/b1c67a5d-5d49-4788-b9c9-661a66d86ed0.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070353/1070353/ae357d82-9b11-4983-958e-48ac5e069152.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070353/1070353/ae357d82-9b11-4983-958e-48ac5e069152.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070354/1070354/601f899c-6b9f-4847-821f-21c709dddd5e.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070354/1070354/601f899c-6b9f-4847-821f-21c709dddd5e.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 6,
+        "rates": [
+          {
+            "uuid": "608940",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 6,
+              "adultRequired": true,
+              "maxOccupants": 6,
+              "maxAdults": 6,
+              "maxChildren": 5,
+              "maxInfants": 2
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609461",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 6,
+              "maxAdults": 6,
+              "maxChildren": 5,
+              "maxInfants": 2
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609482",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 6,
+              "maxAdults": 6,
+              "maxChildren": 5,
+              "maxInfants": 2
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288407",
+        "name": "Tente Lodge Safari",
+        "category": "chalet",
+        "description": "Un brin d aventures et de glamour pour cette grande tente glamping sur pilotis, tout habillée de bois à l intérieur.<br>Des vacances glamping rêvé dans un hébergement spacieux et luxueusement aménagé.<br>Dès votre arrivée, vous serez surpris par cette incroyable impression d'espace. Vite, ouvrez en grand les pans de toile et profitez de cette sensation unique du vivre dehors-dedans.<br><br>La Tente Lodge Safari est l hébergement glamping idéal pour ceux qui souhaitent vivre des vacances en connexion avec la nature tout en ayant le confort optimal. Vous apprécierez la belle cuisine en bois complétement équipée avec four micro-ondes, lave-vaisselle, réfrigérateur/congélateur et cafetière à dosettes vintage.  A côté de la cuisine, une grande table de famille qui donne sur la grande terrasse en bois sur pilotis et avec vue sur le lac.<br><br>Sur la terrasse sur pilotis, une grande table et un coin lounge extérieur avec 2 fauteuils et une table basse.<br><br>Deux belles chambres fermées avec une porte coulissante en bois équipées d'une literie haut de gamme, des couettes chaudes et des oreillers moelleux.<br>Lit double 160 x 200 dans la chambre parentale, 1 lit 80 x 190 et 2 lits superposes 80 x 190 dans la chambre des enfants.<br>Et pour compléter le tout, il y a une vraie salle de bain avec douche à l'italienne, lavabo et WC.<br><br>A vous la vie au grand air en famille !",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"], ["Single bed", "Bunk bed"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 54,
+          "sqft": 581.04
+        },
+        "amenities": [
+          {
+            "name": "Chiens acceptés",
+            "icon": "icon-dogs-accepted",
+            "featured": false
+          },
+          {
+            "name": "Balcon",
+            "icon": "icon-balcony",
+            "featured": false
+          },
+          {
+            "name": "Machine à expresso",
+            "icon": "icon-espresso-machine",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Vaisselles et couverts",
+            "icon": "icon-dining-setting",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Cuisine équipée",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Ustensiles de cuisine",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070330/1070330/094e95ee-c6a7-4320-8ae2-ef8d1f214512.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070330/1070330/094e95ee-c6a7-4320-8ae2-ef8d1f214512.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070331/1070331/701e51a5-978b-4da3-a29e-165f66b9efac.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070331/1070331/701e51a5-978b-4da3-a29e-165f66b9efac.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070332/1070332/473de077-1957-4458-bc0d-d8c75e7cc01c.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070332/1070332/473de077-1957-4458-bc0d-d8c75e7cc01c.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070333/1070333/d36b6a70-b66b-4001-bbe9-4fcb2b36508f.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070333/1070333/d36b6a70-b66b-4001-bbe9-4fcb2b36508f.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070334/1070334/28905bf6-2e98-418b-a674-5e334108c61b.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070334/1070334/28905bf6-2e98-418b-a674-5e334108c61b.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070338/1070338/e6d8dd93-0917-46e7-a049-6f8e257c269e.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070338/1070338/e6d8dd93-0917-46e7-a049-6f8e257c269e.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070336/1070336/a8c16429-736d-4e1d-a9e6-d6f3e43fd328.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070336/1070336/a8c16429-736d-4e1d-a9e6-d6f3e43fd328.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070337/1070337/67be40f5-5d9b-42cf-a7dd-7e22dfee0957.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070337/1070337/67be40f5-5d9b-42cf-a7dd-7e22dfee0957.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070335/1070335/3dc6a5a5-0c68-4047-8c83-783b2ae8d799.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070335/1070335/3dc6a5a5-0c68-4047-8c83-783b2ae8d799.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 5,
+        "rates": [
+          {
+            "uuid": "608942",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 5,
+              "adultRequired": true,
+              "maxOccupants": 5,
+              "maxAdults": 4,
+              "maxChildren": 4,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609464",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 5,
+              "maxAdults": 4,
+              "maxChildren": 4,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609484",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 5,
+              "maxAdults": 4,
+              "maxChildren": 4,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288408",
+        "name": "Cottage Colvert",
+        "category": "bungalow",
+        "description": "Cottage en bois de 2008, rénové en 2021, bénéficiant d'une situation privilégiée en face du lac.<br>Entièrement équipé, avec terrasse couverte en bois, le cottage Colvert dispose de deux chambres (une chambre double 140x190 et une chambre avec 2 lits simples 70x190), une salle de bain avec douche et lavabo, WC séparés, cuisine, télévision.<br>Sa terrasse couverte est équipée d'un espace repas et de transats.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 24 m² - surface de la terrasse : 11 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"], ["Single bed", "Single bed"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 35,
+          "sqft": 376.59999999999997
+        },
+        "amenities": [
+          {
+            "name": "Cuisine équipée",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Chiens acceptés",
+            "icon": "icon-dogs-accepted",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070399/1070399/36a05f15-3594-42a2-bfa2-9bbd4f413b6d.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070399/1070399/36a05f15-3594-42a2-bfa2-9bbd4f413b6d.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070396/1070396/1b8676b8-1f7e-4ba0-a3e4-3f3a637770e8.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070396/1070396/1b8676b8-1f7e-4ba0-a3e4-3f3a637770e8.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070395/1070395/99a132e1-6d19-4ecf-bf30-13a78a0ec4b9.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070395/1070395/99a132e1-6d19-4ecf-bf30-13a78a0ec4b9.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070398/1070398/5763a9e5-e7a7-4fc7-853f-307161cb50b9.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070398/1070398/5763a9e5-e7a7-4fc7-853f-307161cb50b9.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070397/1070397/18cf9511-b775-4980-b0e2-ddc14c26feeb.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070397/1070397/18cf9511-b775-4980-b0e2-ddc14c26feeb.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070401/1070401/b6da0a98-362f-47d4-b8d1-d04951db5018.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070401/1070401/b6da0a98-362f-47d4-b8d1-d04951db5018.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070402/1070402/39af145a-87d6-4017-9ebe-9e77371331c4.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070402/1070402/39af145a-87d6-4017-9ebe-9e77371331c4.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070400/1070400/c79220f0-ffa5-4d57-8064-0d1e343387ed.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070400/1070400/c79220f0-ffa5-4d57-8064-0d1e343387ed.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608933",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609453",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609474",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288413",
+        "name": "Coco Sweet",
+        "category": "room",
+        "description": "Hébergement fun et design mi-tente mi-bungalow, pour des vacances à petit prix au plus près de la nature.<br>La coco sweet est composée d'une chambre avec un lit double (140x190) et d'une chambres avec 2 lits simples (80x190). Elle est équipée d'un frigo et d'un micro-ondes, mais attention, pas de point d'eau à l'intérieur.<br>Sanitaires privatifs à proximité dans bâtiment commun.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 16 m² - surface de la terrasse : 13 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"], ["Single bed", "Single bed"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 28,
+          "sqft": 301.28
+        },
+        "amenities": [
+          {
+            "name": "Kitchenette",
+            "icon": "icon-kitchenette",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Chiens acceptés",
+            "icon": "icon-dogs-accepted",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069999/1069999/332a9834-ec6e-4157-b8fa-964a09462de3.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069999/1069999/332a9834-ec6e-4157-b8fa-964a09462de3.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069997/1069997/6299f343-5cd3-45cc-8492-e9d35366d2f2.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069997/1069997/6299f343-5cd3-45cc-8492-e9d35366d2f2.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069989/1069989/fc9de555-db1a-493e-8b26-7a8f79c97f03.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069989/1069989/fc9de555-db1a-493e-8b26-7a8f79c97f03.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069992/1069992/c31912f6-c7a1-4dc3-b11f-87f78f0fef51.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069992/1069992/c31912f6-c7a1-4dc3-b11f-87f78f0fef51.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069996/1069996/be65a0dd-7211-442a-b6b0-8299a542bba5.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069996/1069996/be65a0dd-7211-442a-b6b0-8299a542bba5.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069988/1069988/30068376-687c-48cf-af6a-d93d4d8a9d47.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069988/1069988/30068376-687c-48cf-af6a-d93d4d8a9d47.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069990/1069990/3074bbfb-1115-44bb-905b-4bafa2c1d326.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069990/1069990/3074bbfb-1115-44bb-905b-4bafa2c1d326.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069995/1069995/44f9c2b7-06b6-4283-9bfb-f753fa429cfd.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069995/1069995/44f9c2b7-06b6-4283-9bfb-f753fa429cfd.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069994/1069994/fe50696d-8b1e-4cb9-ab40-280e54fe2e6e.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069994/1069994/fe50696d-8b1e-4cb9-ab40-280e54fe2e6e.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069991/1069991/34338d37-f139-486a-9d0c-df765f36e665.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069991/1069991/34338d37-f139-486a-9d0c-df765f36e665.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 9
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069993/1069993/d6ef56f6-b213-4b56-9293-fe77cddcd410.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069993/1069993/d6ef56f6-b213-4b56-9293-fe77cddcd410.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 10
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069998/1069998/9f3f1b02-a0e7-4005-998c-3eecf7070d99.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069998/1069998/9f3f1b02-a0e7-4005-998c-3eecf7070d99.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 11
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608932",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609452",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609473",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288416",
+        "name": "Cabanon du Lac",
+        "category": "cottage",
+        "description": "Avec son toit tordu et sa belle terrasse couverte et fermé pour plus de sécurité, ce petit habitat au look de cabane de pêcheur propose tout le confort d'un bungalow dernier cri.<br>Il est équipé de la climatisation, cuisine équipée (frigo, micro-ondes, senseo), sanitaire et salle de bain (douche et lavabo), deux chambres (une chambre avec un lit double 140x190 et une chambre avec 1 lit simple pour un jeune enfant et 1 lit à barreau pour un bébé.<br>Il est implanté dans une zone sans voitures, pour des vacances relax avec bébé à la campagne.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 20 m² - surface de la terrasse : 13.50 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"], ["Single bed"]],
+        "position": 0,
+        "dimensions": {
+          "sqm": 20,
+          "sqft": 215.2
+        },
+        "amenities": [
+          {
+            "name": "TV",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Coffre-fort dans la chambre",
+            "icon": "icon-room-safe",
+            "featured": false
+          },
+          {
+            "name": "Air conditionné",
+            "icon": "icon-air-conditioned",
+            "featured": false
+          },
+          {
+            "name": "Ustensiles de cuisine",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Berceaux disponibles",
+            "icon": "icon-cots-available",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Chaise haute disponible",
+            "icon": "icon-high-chair-available",
+            "featured": false
+          },
+          {
+            "name": "Machine à expresso",
+            "icon": "icon-espresso-machine",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Vaisselles et couverts",
+            "icon": "icon-dining-setting",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Cuisine équipée",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069984/1069984/95a8be9a-eb03-4dd7-af5d-50a1e57f289a.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069984/1069984/95a8be9a-eb03-4dd7-af5d-50a1e57f289a.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069982/1069982/7df05916-e5ef-41ef-a8bc-242ecf99acec.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069982/1069982/7df05916-e5ef-41ef-a8bc-242ecf99acec.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069981/1069981/ce4a8872-7fa1-4ad0-9e79-53559929f941.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069981/1069981/ce4a8872-7fa1-4ad0-9e79-53559929f941.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069986/1069986/94bf2790-2621-4cf4-9ac2-8e0796009fa5.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069986/1069986/94bf2790-2621-4cf4-9ac2-8e0796009fa5.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069987/1069987/2a8ccae7-1efd-41da-ab5d-a0664db1a44c.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069987/1069987/2a8ccae7-1efd-41da-ab5d-a0664db1a44c.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069983/1069983/12f11b4d-b4bd-4d20-9053-04c66ed27288.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1069983/1069983/12f11b4d-b4bd-4d20-9053-04c66ed27288.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608931",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 3,
+              "adultRequired": false,
+              "maxOccupants": 3,
+              "maxAdults": 3,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609451",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 3,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609472",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 3,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288406",
+        "name": "Ecolodge Mojito",
+        "category": "chalet",
+        "description": "L'Ecolodge Mojito, c'est l'art de vivre la nature, avec sa grande terrasse qui invite au lâcher prise, un verre à la main.<br>Il possède 2 chambres (1 chambre double (160x200) et une chambre à 2 lits (80x200), un grand séjour avec coin cuisine équipée avec frigo, micro-ondes, lave-vaisselle.<br>La salle de bain est équipée d'un lavabo, douche, toilettes et sèche cheveux.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 34 m² - surface de la terrasse : 20 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"], ["Single bed", "Single bed"]],
+        "position": 1,
+        "dimensions": {
+          "sqm": 54,
+          "sqft": 581.04
+        },
+        "amenities": [
+          {
+            "name": "Chiens acceptés",
+            "icon": "icon-dogs-accepted",
+            "featured": false
+          },
+          {
+            "name": "Sèche-cheveux",
+            "icon": "icon-hairdryer",
+            "featured": false
+          },
+          {
+            "name": "Vaisselles et couverts",
+            "icon": "icon-dining-setting",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Cuisine équipée",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Coffre-fort dans la chambre",
+            "icon": "icon-room-safe",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070006/1070006/88278589-dcd2-481b-935c-ac952e193168.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070006/1070006/88278589-dcd2-481b-935c-ac952e193168.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070004/1070004/d44cd489-48f9-4803-b8d9-097c646540a0.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070004/1070004/d44cd489-48f9-4803-b8d9-097c646540a0.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070000/1070000/b3d224d2-5fa6-4fc2-abdc-1a140a6dde51.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070000/1070000/b3d224d2-5fa6-4fc2-abdc-1a140a6dde51.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070002/1070002/f0570c9e-4f28-47f4-a2b4-a37239ad47ee.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070002/1070002/f0570c9e-4f28-47f4-a2b4-a37239ad47ee.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070001/1070001/ff5fbfca-7a98-4363-a8d9-7f14a199d634.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070001/1070001/ff5fbfca-7a98-4363-a8d9-7f14a199d634.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070007/1070007/b0d909a6-f989-474f-9282-797a48783868.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070007/1070007/b0d909a6-f989-474f-9282-797a48783868.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070005/1070005/54684707-c22b-46db-bd25-a9b4e8d758f6.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070005/1070005/54684707-c22b-46db-bd25-a9b4e8d758f6.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608934",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609454",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609475",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288414",
+        "name": "Ecolodge duplex nature",
+        "category": "cabin",
+        "description": "Un duplex conçu pour accueillir une famille nombreuse ou toute une tribu. 3 chambres séparées au premier étage avec terrasses, accessible par un escalier sécurisé. Le rez de chaussée est équipé d'une cuisine avec coin repas et d'une salle de bain complète.<br>Un espace repas extérieur couvert vous permet de prendre vos repas.<br>Sa superficie est de 27 m² + une terrasse de 19 m². A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 27 m² - surface de la terrasse : 19 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "1",
+        "bedrooms": [["Queen / Twin"], ["King / Twin"], ["Queen / Twin"]],
+        "position": 4,
+        "dimensions": {
+          "sqm": 36,
+          "sqft": 387.36
+        },
+        "amenities": [
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Sèche-cheveux",
+            "icon": "icon-hairdryer",
+            "featured": false
+          },
+          {
+            "name": "Vaisselles et couverts",
+            "icon": "icon-dining-setting",
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Cuisine équipée",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Coffre-fort dans la chambre",
+            "icon": "icon-room-safe",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070014/1070014/3b406991-64a7-4d2c-b45b-af9abe67fcbf.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070014/1070014/3b406991-64a7-4d2c-b45b-af9abe67fcbf.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070013/1070013/44b3e7ba-9bfc-4f14-a76a-3538ce25659a.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070013/1070013/44b3e7ba-9bfc-4f14-a76a-3538ce25659a.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070012/1070012/2f306fa2-62e2-4879-b414-5b2d0434c2e0.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070012/1070012/2f306fa2-62e2-4879-b414-5b2d0434c2e0.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070011/1070011/25466550-cb65-4d0f-b78e-b743d683b1a2.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070011/1070011/25466550-cb65-4d0f-b78e-b743d683b1a2.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070015/1070015/38f3b9d2-3ff3-4aff-a62b-2b495f8142e3.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070015/1070015/38f3b9d2-3ff3-4aff-a62b-2b495f8142e3.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070010/1070010/1723e6ef-820f-4c32-b05b-a56c36003fe8.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070010/1070010/1723e6ef-820f-4c32-b05b-a56c36003fe8.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 6,
+        "rates": [
+          {
+            "uuid": "608935",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 6,
+              "adultRequired": true,
+              "maxOccupants": 6,
+              "maxAdults": 6,
+              "maxChildren": 5,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609455",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 6,
+              "maxAdults": 6,
+              "maxChildren": 5,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609476",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 6,
+              "maxAdults": 6,
+              "maxChildren": 5,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288415",
+        "name": "Tipi Heureux",
+        "category": "chalet",
+        "description": "Le tipi des temps modernes, avec étage et tout le confort d'une maison de vacances une belle expérience en perspective !<br>Le rez de chassée est spacieux avec la pièce de vie avec l'espace repas, la cuisine équipée (frigo, micro-ondes, cafetière) et la chambre des enfants en haut et entièrement sécurisée (barrière et filet).<br>La salle de bain est équipée d'une douche et lavabo, toilettes séparées.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 30 m² - surface de la terrasse sur pilotis : 15 m²)",
+        "smoking": null,
+        "view": "Vue sur jardin",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed", "Single bed", "Single bed"]],
+        "position": 6,
+        "dimensions": {
+          "sqm": 45,
+          "sqft": 484.2
+        },
+        "amenities": [
+          {
+            "name": "Mobilier extérieur",
+            "icon": "icon-outdoor-setting",
+            "featured": false
+          },
+          {
+            "name": "Cuisine",
+            "icon": "icon-kitchen",
+            "featured": false
+          },
+          {
+            "name": "Toilettes séparées",
+            "icon": null,
+            "featured": false
+          },
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Four à micro-ondes",
+            "icon": "icon-microwave",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Chiens acceptés",
+            "icon": "icon-dogs-accepted",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070107/1070107/591fab0e-732a-4eca-ab67-4c8759398cc3.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070107/1070107/591fab0e-732a-4eca-ab67-4c8759398cc3.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070103/1070103/528e3402-15ec-4895-beb8-08380ccec3b5.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070103/1070103/528e3402-15ec-4895-beb8-08380ccec3b5.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070106/1070106/70224821-a316-4267-9a4f-ab9b7a1c332c.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070106/1070106/70224821-a316-4267-9a4f-ab9b7a1c332c.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070105/1070105/613f8671-3e37-47e1-b6e5-291474cd58bd.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070105/1070105/613f8671-3e37-47e1-b6e5-291474cd58bd.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070104/1070104/6215dbaf-d79a-4e13-b907-f0f5db2973a1.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070104/1070104/6215dbaf-d79a-4e13-b907-f0f5db2973a1.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070109/1070109/4d0d91de-c499-41e8-98d0-680e48658660.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070109/1070109/4d0d91de-c499-41e8-98d0-680e48658660.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 5
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070110/1070110/741c3a74-1d0a-4cd7-8671-0335c76ee8f4.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070110/1070110/741c3a74-1d0a-4cd7-8671-0335c76ee8f4.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 6
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070111/1070111/17a8544d-6bc8-461a-8cf9-e8294a44bbf1.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070111/1070111/17a8544d-6bc8-461a-8cf9-e8294a44bbf1.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 7
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070108/1070108/b2e34c5e-193b-4e73-a4f1-3c1d6544a27e.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070108/1070108/b2e34c5e-193b-4e73-a4f1-3c1d6544a27e.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 8
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608945",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609468",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609487",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 2,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288410",
+        "name": "P'tite cabane sur l'eau",
+        "category": "cabin",
+        "description": "Dormir sur l'eau est une aventure !<br>Le lac est trop petit pour risquer de croiser un sous-marin, mais suffisamment grand pour se sentir seul au monde.<br>Votre chambre est équipée d'un lit (140x190).<br>Pour votre confort, la cabane est équipée de toilettes sèches et d'un lavabo d'appoint.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 9 m² - surface de la terrasse : 5 m²)",
+        "smoking": null,
+        "view": "Vue sur lac",
+        "bathrooms": "shared",
+        "bedrooms": [],
+        "position": 9,
+        "dimensions": {
+          "sqm": 12,
+          "sqft": 129.12
+        },
+        "amenities": [
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070053/1070053/3d4e8c4f-cd42-48f5-ad8b-813e5ea48eaa.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070053/1070053/3d4e8c4f-cd42-48f5-ad8b-813e5ea48eaa.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070052/1070052/64e514cc-71cf-4925-b124-cc6b807b75dd.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070052/1070052/64e514cc-71cf-4925-b124-cc6b807b75dd.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070054/1070054/0cb42a18-3e81-413f-a1d1-9b06fcadb106.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070054/1070054/0cb42a18-3e81-413f-a1d1-9b06fcadb106.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070051/1070051/380a86ba-bfec-4300-9f65-826db7ff209f.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070051/1070051/380a86ba-bfec-4300-9f65-826db7ff209f.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070050/1070050/66afc32a-6cd3-476f-9a46-6c992934446b.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070050/1070050/66afc32a-6cd3-476f-9a46-6c992934446b.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "rates": [
+          {
+            "uuid": "608938",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 2,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609458",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609480",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288409",
+        "name": "Petit chalet",
+        "category": "chalet",
+        "description": "Un petit chalet PMR totalement rénové intérieurement et décoré dans un esprit suite hôtelière tout en bois.<br>Il dispose d'une belle salle de bain avec lavabo, WC et douche à l'italienne. Lit 160 x 200, petit réfrigérateur, coin évier et cafetière percolateur vintage.<br>A savoir : Ce logement dispose d'une terrasse équipée d'une table et 2 chaises et de 2 transats.<br>La terrasse est accessible depuis le chemin, elle ne donne pas sur le lac.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 25 m² - surface de la terrasse : 10 m²)",
+        "smoking": null,
+        "view": "Vue sur jardin",
+        "bathrooms": "1",
+        "bedrooms": [["Double bed"]],
+        "position": 10,
+        "dimensions": {
+          "sqm": 35,
+          "sqft": 376.59999999999997
+        },
+        "amenities": [
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          },
+          {
+            "name": "Coffre-fort dans la chambre",
+            "icon": "icon-room-safe",
+            "featured": false
+          },
+          {
+            "name": "Frigo",
+            "icon": "icon-fridge",
+            "featured": false
+          },
+          {
+            "name": "Douche",
+            "icon": "icon-shower",
+            "featured": false
+          },
+          {
+            "name": "Machine à expresso",
+            "icon": "icon-espresso-machine",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070056/1070056/2b32c55f-9ff8-45ce-880f-1e1a78740496.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070056/1070056/2b32c55f-9ff8-45ce-880f-1e1a78740496.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070057/1070057/e704334b-5f4a-4c3a-a92e-79b468359ede.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070057/1070057/e704334b-5f4a-4c3a-a92e-79b468359ede.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070058/1070058/03796616-243a-496b-97d0-3f5c5e648946.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070058/1070058/03796616-243a-496b-97d0-3f5c5e648946.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070055/1070055/e0988321-6647-4aba-bb47-4bc272afae7b.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070055/1070055/e0988321-6647-4aba-bb47-4bc272afae7b.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 3,
+        "rates": [
+          {
+            "uuid": "608939",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 3,
+              "adultRequired": true,
+              "maxOccupants": 3,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609460",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 3,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609481",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 3,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288412",
+        "name": "Tente nomade 2 pers",
+        "category": "bungalow",
+        "description": "Parce qu'on aime la dimension luxe de l'hôtellerie, la Tente Nomade pour 2 personnes est équipée d'un lit double (160x200) , lits faits, serviettes de toilette fournies.<br>Au réveil vous pouvez profiter d'un délicieux petit déjeuner buffet (non inclus dans la prestation).<br>A noter que les tentes nomades ne disposent pas de leurs propres sanitaires, mais il suffit de faire quelques pas pour vous rendre à l'espace sanitaires partagé: douches, toilettes, cabines lavabo et nurserie y sont à votre disposition.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 19 m² - surface de la terrasse : 6 m²)<br>Laissez-vous tenter par un séjour sous le signe de l'aventure et du luxe à Whaka Lodge !",
+        "smoking": null,
+        "view": "Vue sur jardin",
+        "bathrooms": "shared",
+        "bedrooms": [["Double bed"]],
+        "position": 15,
+        "dimensions": {
+          "sqm": 25,
+          "sqft": 269
+        },
+        "amenities": [
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070090/1070090/d1da3c64-e397-49d7-9602-b2184b907178.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070090/1070090/d1da3c64-e397-49d7-9602-b2184b907178.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070093/1070093/d5bb4ab4-96fe-41f0-8a40-294155616393.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070093/1070093/d5bb4ab4-96fe-41f0-8a40-294155616393.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070092/1070092/074692bb-c8ff-46f0-8263-ea1b526f0acf.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070092/1070092/074692bb-c8ff-46f0-8263-ea1b526f0acf.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070091/1070091/e907db4f-cf14-4470-b77b-8c4217501aaf.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070091/1070091/e907db4f-cf14-4470-b77b-8c4217501aaf.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 3
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070089/1070089/439b4897-2878-4bcb-81d3-1a6ed1feb566.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070089/1070089/439b4897-2878-4bcb-81d3-1a6ed1feb566.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 4
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "rates": [
+          {
+            "uuid": "608943",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 2,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609465",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609485",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 2,
+              "maxAdults": 2,
+              "maxChildren": 1,
+              "maxInfants": 0
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "288411",
+        "name": "Tente nomade 3-4 pers",
+        "category": "bungalow",
+        "description": "Parce qu'on aime la dimension luxe de l'hôtellerie, la Tente Nomade pour 4 personnes est équipée d'un lit double (160x200) et 2 lits simples (70x190), lits faits, serviettes de toilette fournies. Au réveil vous pouvez profiter d'un délicieux petit déjeuner buffet (non inclus dans la prestation).<br>A noter que les tentes nomades ne disposent pas de leurs propres sanitaires, mais il suffit de faire quelques pas pour vous rendre à lespace sanitaires partagé: douches, toilettes, cabines lavabo et nurserie y sont à votre disposition.<br>A noter : la superficie totale indiquée inclut la superficie de la terrasse (surface intérieure : 19 m² - surface de la terrasse : 6 m²) Laissez-vous tenter par un séjour sous le signe de l'aventure et du luxe à Whaka Lodge !",
+        "smoking": null,
+        "view": null,
+        "bathrooms": "shared",
+        "bedrooms": [["Double bed", "Single bed", "Single bed"]],
+        "position": 16,
+        "dimensions": {
+          "sqm": 25,
+          "sqft": 269
+        },
+        "amenities": [
+          {
+            "name": "Linge de maison et serviettes fournis",
+            "icon": "icon-linen-and-towels-provided",
+            "featured": false
+          },
+          {
+            "name": "Internet sans fil",
+            "icon": "icon-chargeable-wifi",
+            "featured": false
+          }
+        ],
+        "images": [
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070100/1070100/efa9d0fb-e8bc-4d91-9608-72a412171174.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070100/1070100/efa9d0fb-e8bc-4d91-9608-72a412171174.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 0
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070101/1070101/d9a58804-7fa0-4896-88bd-332e8cfe4a5a.jpg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070101/1070101/d9a58804-7fa0-4896-88bd-332e8cfe4a5a.jpg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 1
+          },
+          {
+            "url": {
+              "fullsize": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070102/1070102/fc0b2fbe-38de-4afc-a38f-8878af8595e9.jpeg",
+              "thumbnail": "https://tbb-prod-emea.imgix.net/attachments/room_type_photos/images/1070102/1070102/fc0b2fbe-38de-4afc-a38f-8878af8595e9.jpeg?auto=format,compress&w=100&h=100&q=55"
+            },
+            "description": "",
+            "sortindex": 2
+          }
+        ],
+        "floorPlans": [],
+        "minAvailability": 0,
+        "maxOccupancy": 4,
+        "rates": [
+          {
+            "uuid": "608944",
+            "name": "Hébergement Seul",
+            "description": ".",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 0,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 4,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609467",
+            "name": "Petit-Déjeuner Inclus",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 1,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          },
+          {
+            "uuid": "609486",
+            "name": "Demi Pension Incluse",
+            "description": "-",
+            "ratePlanDescription": null,
+            "promotional": false,
+            "promotionOnly": false,
+            "nonGuaranteeCutofftime": null,
+            "releasePeriod": null,
+            "isLastMinute": false,
+            "stayForTotalNights": null,
+            "payOnlyTotalNights": null,
+            "isPackageDeal": false,
+            "isLengthOfStayDeal": false,
+            "minStay": 7,
+            "customTextAreaFieldLabel": null,
+            "useCustomTextAreaField": false,
+            "position": 2,
+            "maxNumberOfRooms": 10,
+            "occupancy": {
+              "included": 1,
+              "adultRequired": true,
+              "maxOccupants": 4,
+              "maxAdults": 4,
+              "maxChildren": 3,
+              "maxInfants": 1
+            },
+            "policies": [
+              {
+                "type": "deposit",
+                "content": null,
+                "rules": [
+                  {
+                    "type": "deposit",
+                    "key": "percentage",
+                    "args": ["30"]
+                  }
+                ],
+                "penaltyRules": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
