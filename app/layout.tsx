@@ -21,7 +21,7 @@ export default function RootLayout({
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Sam And Zoe's wedding booking website
+                Sam And Zoes wedding booking website
               </span>
             </a>
             <button

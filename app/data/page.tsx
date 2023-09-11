@@ -1,5 +1,6 @@
 import { S3_PROD_IMAGES_URL, createS3ImageUrl } from '@/utilities/client/aws';
-import { getGoogleSheetsData, getItemByHeaderName } from '@/utilities/server/sheets';
+import { getItemByHeaderName } from '@/utilities/client/sheets';
+import { getGoogleSheetsData } from '@/utilities/server/sheets';
 import Image from 'next/image'
 
 export default async function Home() {
