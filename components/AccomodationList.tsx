@@ -18,7 +18,7 @@ export const AccomodationList = ({ sheet }: { sheet: string[][] }) => {
             iD,
           } = convertRowToNamedObject(headers, row);
           const headerImage = createS3ImageUrl(
-            S3_PROD_IMAGES_URL,
+            S3_PROD_IMAGES_URL || '',
             s3FolderName,
             "0.jpg"
           );

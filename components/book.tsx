@@ -54,7 +54,7 @@ export const Book = ({ sum }: { sum: string }) => {
                     className="border-solid border-2"
                     type="checkbox"
                     name="agree"
-                    value={agreed}
+                    value={String(agreed)}
                     onChange={() => setAgreed(!agreed)}
                   />
                 </label>

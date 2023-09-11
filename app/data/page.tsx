@@ -30,8 +30,8 @@ export default async function Home() {
                     const imageFolder = getItemByHeaderName('s3FolderName', headers, row)
                     return <td key={index} className="border px-4 py-2">
 
-                    {imageNames.map((imageName, index) => {
-                      const image = createS3ImageUrl(S3_PROD_IMAGES_URL, imageFolder, imageName);
+                    {imageNames.map((imageName: string, index: number) => {
+                      const image = S3_PROD_IMAGES_URL ? createS3ImageUrl(S3_PROD_IMAGES_URL, imageFolder, imageName) : '';
                       // flex
                       return <img key={index} src={image} alt={`${imageFolder}/${imageName}`}/>;
                     })}
