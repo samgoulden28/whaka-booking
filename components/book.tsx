@@ -1,12 +1,29 @@
 "use client";
 
-import { useState } from "react";
+import { addBooking } from "@/utilities/server/form";
+import { useSearchParams } from "next/navigation";
+import { ReactNode, RefObject, useRef, useState } from "react";
 
-export const Book = ({ sum }: { sum: string }) => {
+export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: number }) => {
+  const toast = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [agreed, setAgreed] = useState(false);
+  const searchParams = useSearchParams()
+ 
+  const booked = searchParams.get('booked')
+  setTimeout(() => {
+    if(booked && toast?.current) {
+      toast.current.style.right = "-200px";
+    }
+  }, 5000);
+  
   return (
     <>
+      {booked && (
+        <div ref={toast} className="fixed top-0 right-0 bg-green-500 text-white p-2 rounded-lg transition-all ease-in-out duration-500">
+          Booking Successful!
+          </div>
+      )}
       <button
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         onClick={() => setOpen(true)}
@@ -22,7 +39,15 @@ export const Book = ({ sum }: { sum: string }) => {
             >
               X
             </button>
-            <form className="flex flex-col gap-2 px-4 py-2">
+            <form action={addBooking} onSubmit={() => setOpen(false)}className="flex flex-col gap-2 px-4 py-2">
+              <div className="hidden">
+                <input
+                  className="border-solid border-2"
+                  type="text"
+                  name="accomodationId"
+                  value={accomodationId}
+                />
+              </div>
               <div>
                 <label>Name:</label>
                 <input

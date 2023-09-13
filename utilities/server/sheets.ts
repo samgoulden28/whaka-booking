@@ -10,7 +10,7 @@ const auth = google.auth.getClient({
     client_email: process.env.GSHEETS_CLIENT_EMAIL || "",
     client_id: process.env.GSHEETS_CLIENT_ID || "",
   },
-  scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
+  scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
 export async function getGoogleSheetsData(range: string) {
@@ -22,4 +22,18 @@ export async function getGoogleSheetsData(range: string) {
   });
 
   return data.data.values;
+}
+
+export async function addRowToGoogleSheet(values: string[]) {
+  const sheets = google.sheets({ version: "v4", auth: await auth });
+
+  const success = await sheets.spreadsheets.values.append({
+    spreadsheetId: process.env.GSHEETS_SPREADSHEET_ID || "",
+    range: `${process.env.NEXT_PUBLIC_BOOKING_SHEET_NAME}`,
+    requestBody: {
+      values: [values],
+    },
+    valueInputOption: "RAW",
+  });
+  return success;
 }

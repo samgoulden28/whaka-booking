@@ -20,9 +20,14 @@ export default async function Post({ params }: { params: { id: number } }) {
     numberAvailableCurrent,
     images,
   } = convertRowToNamedObject(headers, row);
+
+  //assign a variable true or false based on booking in the URL query params (if it exists)
   return (
     <div className="flex flex-col md:flex-row items-center justify-center min-h-screen py-2 gap-2">
       <div className="flex flex-col items-center w-[60vw] max-w-2xl sm:w-[80vw] gap-1">
+        {/* a toast in the top right that appears for 5 seconds and then disappears if the
+        url /accomodation/${data.get("accomodationId")}&booked=true has true in the url */}
+        
         <div className="text-lg font-bold">{typeOfAccommodation}</div>
         <div>{description}</div>
         <table className="table-auto">
@@ -47,7 +52,7 @@ export default async function Post({ params }: { params: { id: number } }) {
             </tr>
           </tbody>
         </table>
-        <Book sum={rentalPricePerNightAndPerAccommodation} />
+        <Book sum={rentalPricePerNightAndPerAccommodation} accomodationId={params.id}/>
       </div>
       <div className="max-w-2xl">
         <Carousel images={JSON.parse(images)} name={typeOfAccommodation} />
