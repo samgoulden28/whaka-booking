@@ -1,8 +1,14 @@
-"use client"
-import { SheetData } from '@/utilities/client/sheets';
-import React, { createContext, useContext } from 'react';
+"use client";
+import { SheetData, convertRowToNamedObject } from "@/utilities/client/sheets";
+import React, { createContext, useContext } from "react";
 
-const DataContext = createContext<SheetData>([]);
+const DataContext = createContext<{
+  rawSheet: SheetData;
+  namedSheet: { [index: string]: string }[];
+}>({
+  rawSheet: [],
+  namedSheet: [],
+});
 
 export const useData = () => {
   return useContext(DataContext);
@@ -13,9 +19,15 @@ type DataProviderProps = {
   value: SheetData;
 };
 
-export const DataProvider = ({ children, value}: DataProviderProps) => {
+export const DataProvider = ({ children, value }: DataProviderProps) => {
+  const [headers] = Array.isArray(value) ? value : [];
   return (
-    <DataContext.Provider value={value}>
+    <DataContext.Provider
+      value={{
+        rawSheet: value,
+        namedSheet: value.map((row) => convertRowToNamedObject(headers, row)),
+      }}
+    >
       {children}
     </DataContext.Provider>
   );

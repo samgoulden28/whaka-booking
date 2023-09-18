@@ -1,7 +1,7 @@
 import { getGoogleSheetsData } from "@/utilities/server/sheets";
 import Image from "next/image";
 import { DataProvider } from "@/components/context/sheetsCtx";
-import { AccomodationList } from "@/components/AccomodationList";
+import { AccomodationRouter } from "@/components/AccomodationRouter";
 
 export default async function Home() {
   const range = `${process.env.NEXT_PUBLIC_SHEET_NAME}!${process.env.NEXT_PUBLIC_SHEET_RANGE}`;
@@ -9,7 +9,7 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {sheet ? <AccomodationList sheet={sheet} /> : null}
+      {sheet ? <AccomodationRouter sheet={sheet} /> : null}
     </main>
   );
 }

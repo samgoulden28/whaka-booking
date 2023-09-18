@@ -1,29 +1,34 @@
 "use client";
 
-import { addBooking } from "@/utilities/server/form";
 import { useSearchParams } from "next/navigation";
 import { ReactNode, RefObject, useRef, useState } from "react";
+import { redirect, useNavigate } from "react-router-dom";
 
-export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: number }) => {
+export const Book = ({
+  sum,
+  accomodationId,
+}: {
+  sum: string;
+  accomodationId: number;
+}) => {
+  const navigate = useNavigate();
   const toast = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [agreed, setAgreed] = useState(false);
-  const searchParams = useSearchParams()
- 
-  const booked = searchParams.get('booked')
-  setTimeout(() => {
-    if(booked && toast?.current) {
-      toast.current.style.right = "-200px";
-    }
-  }, 5000);
-  
+  const [loading, setLoading] = useState(false);
+  const deposit = Math.floor(Number(sum) * 0.2);
+
+  const book = async (info: any) => {
+    await fetch("/api/book", {
+      method: "POST",
+      body: JSON.stringify(info),
+    });
+
+    navigate(`/`);
+  };
+
   return (
     <>
-      {booked && (
-        <div ref={toast} className="fixed top-0 right-0 bg-green-500 text-white p-2 rounded-lg transition-all ease-in-out duration-500">
-          Booking Successful!
-          </div>
-      )}
       <button
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         onClick={() => setOpen(true)}
@@ -32,14 +37,28 @@ export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: num
       </button>
       {open && (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-10 ">
-          <div className="bg-white rounded-lg p-8">
+          <div className="bg-white rounded-lg p-8 relative">
             <button
               className="absolute top-2 right-2"
               onClick={() => setOpen(false)}
             >
               X
             </button>
-            <form action={addBooking} onSubmit={() => setOpen(false)}className="flex flex-col gap-2 px-4 py-2">
+            <form
+              onSubmit={(e) => {
+                // call book with the form values as an object?
+                e.preventDefault();
+                setLoading(true);
+                const data = new FormData(e.target as HTMLFormElement);
+                book({
+                  accomodationId: data.get("accomodationId"),
+                  name: data.get("name"),
+                  numPeople: data.get("numPeople"),
+                  peopleNames: data.get("peopleNames"),
+                });
+              }}
+              className="flex flex-col gap-2 px-4 py-2"
+            >
               <div className="hidden">
                 <input
                   className="border-solid border-2"
@@ -50,6 +69,7 @@ export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: num
               </div>
               <div>
                 <label>Name:</label>
+                <br />
                 <input
                   className="border-solid border-2"
                   type="text"
@@ -58,6 +78,7 @@ export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: num
               </div>
               <div>
                 <label>Number of people staying:</label>
+                <br />
                 <input
                   className="border-solid border-2"
                   type="number"
@@ -65,7 +86,8 @@ export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: num
                 />
               </div>
               <div>
-                <label>Names of people staying:</label>
+                <label>Names of additional people staying:</label>
+                <br />
                 <input
                   className="border-solid border-2"
                   type="text"
@@ -73,8 +95,18 @@ export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: num
                 />
               </div>
               <div>
-                <label className="flex space-x-4">
-                  I agree to pay Sam and Zoe the sum of €{sum}
+                <h4>Payment Link</h4>
+                <a
+                  href={`https://monzo.me/samuelgoulden7?amount=${deposit}`}
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                >
+                  Monzo Sam Goulden £{deposit}
+                </a>
+              </div>
+              <div>
+                <label className="flex space-x-4 flex-col">
+                  I have paid Sam the deposit of £{deposit} (20%) and agree to
+                  pay the remainder by May 1st, 2024
                   <input
                     className="border-solid border-2"
                     type="checkbox"
@@ -86,7 +118,7 @@ export const Book = ({ sum, accomodationId }: { sum: string; accomodationId: num
               </div>
               <button
                 type="submit"
-                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded disabled:bg-dark-green:700"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50 disabled:bg-blue-300 disabled:cursor-not-allowed"
                 disabled={!agreed}
               >
                 Submit

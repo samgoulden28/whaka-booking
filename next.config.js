@@ -3,6 +3,14 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/accomodation/:path*',
+        destination: '/',
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig

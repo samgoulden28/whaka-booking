@@ -19,3 +19,14 @@ export async function addBooking(data: FormData) {
   revalidatePath("/");
   redirect(`/accomodation/${data.get("accomodationId")}?booked=true`);
 }
+
+export async function addBookingApi({
+  accomodationId,
+  name,
+  peopleNames,
+  numPeople,
+}: any) {
+  const today = DateTime.now().toFormat("dd/MM/yyyy");
+  const values = [accomodationId, name, numPeople, peopleNames, today, "false"];
+  await addRowToGoogleSheet(values);
+}
