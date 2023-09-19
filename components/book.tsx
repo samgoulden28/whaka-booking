@@ -2,7 +2,10 @@
 
 import { useSearchParams } from "next/navigation";
 import { ReactNode, RefObject, useRef, useState } from "react";
+import { RotatingLines } from "react-loader-spinner";
 import { redirect, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import { useData } from "./context/sheetsCtx";
 
 export const Book = ({
   sum,
@@ -12,17 +15,32 @@ export const Book = ({
   accomodationId: number;
 }) => {
   const navigate = useNavigate();
-  const toast = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [agreed, setAgreed] = useState(false);
   const [loading, setLoading] = useState(false);
   const deposit = Math.floor(Number(sum) * 0.2);
+  const { setRefresh } = useData();
 
   const book = async (info: any) => {
     await fetch("/api/book", {
       method: "POST",
       body: JSON.stringify(info),
     });
+
+    setLoading(false);
+
+    toast.success("✅ Booking Successful!", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+
+    setRefresh((prev) => prev + 1);
 
     navigate(`/`);
   };
@@ -118,10 +136,20 @@ export const Book = ({
               </div>
               <button
                 type="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50 disabled:bg-blue-300 disabled:cursor-not-allowed"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50 disabled:bg-blue-300 disabled:cursor-not-allowed flex justify-center items-center"
                 disabled={!agreed}
               >
-                Submit
+                {loading ? (
+                  <RotatingLines
+                    strokeColor="white"
+                    strokeWidth="5"
+                    animationDuration="0.75"
+                    width="24"
+                    visible={true}
+                  />
+                ) : (
+                  "Submit"
+                )}
               </button>
             </form>
           </div>

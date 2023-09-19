@@ -18,9 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4 overflow-x-hidden">
             <a href="/" className="flex items-center">
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="text-center text-2xl font-semibold dark:text-white">
                 Sam And Zoes wedding booking website
               </span>
             </a>

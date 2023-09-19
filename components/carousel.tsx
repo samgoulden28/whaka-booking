@@ -13,9 +13,8 @@ export const Carousel = ({
   images: string[];
   name: string;
 }) => {
-
   return (
-    <RCarousel>
+    <RCarousel showStatus={false}>
       {images?.map((image, id) => (
         <div key={id}>
           <img

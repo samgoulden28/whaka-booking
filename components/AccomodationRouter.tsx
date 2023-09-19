@@ -5,10 +5,17 @@ import { DataProvider } from "./context/sheetsCtx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Accomodation } from "./Accomodation";
 import { AccomodationList } from "./AccomodationList";
+import { Dispatch, SetStateAction } from "react";
 
-export const AccomodationRouter = ({ sheet }: { sheet: string[][] }) => {
+export const AccomodationRouter = ({
+  sheet,
+  setRefresh,
+}: {
+  sheet: string[][];
+  setRefresh: Dispatch<SetStateAction<number>>;
+}) => {
   return (
-    <DataProvider value={sheet}>
+    <DataProvider value={sheet} setRefresh={setRefresh}>
       <BrowserRouter>
         <Routes>
           <Route path="/accomodation/:id" element={<Accomodation />} />
