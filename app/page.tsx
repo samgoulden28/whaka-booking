@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { FallingLines } from "react-loader-spinner";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+const { signal } = new AbortController();
 export const fetchCache = "force-no-store";
 export const dynamic = "force-dynamic";
 
@@ -31,6 +31,7 @@ export default function Home() {
       const response = await fetch("/api/sheets", {
         cache: "no-store",
         next: { revalidate: 0 },
+        signal,
       });
       const { data: sheet } = await response.json();
       setSheet(sheet);
