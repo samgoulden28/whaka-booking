@@ -9,6 +9,7 @@ export async function POST(request: Request) {
     // Parse the request body
     const { accomodationId, name, numPeople, peopleNames } =
       await request.json();
+    console.log("1");
 
     // Validate email and password (you can add more robust validation)
     if (!accomodationId || !name || !numPeople) {
@@ -17,6 +18,7 @@ export async function POST(request: Request) {
       });
     }
 
+    console.log("2");
     const result = await addBookingApi({
       accomodationId,
       name,
@@ -24,6 +26,7 @@ export async function POST(request: Request) {
       peopleNames,
     });
 
+    console.log("3");
     // Respond with the created user or a success message
     return new Response(JSON.stringify({ accomodationId }), { status: 200 });
   } catch (error) {
