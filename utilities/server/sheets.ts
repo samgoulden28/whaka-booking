@@ -1,5 +1,7 @@
 import { google } from "googleapis";
 
+export const fetchCache = "force-no-store";
+
 const auth = google.auth.getClient({
   projectId: "quick-line-389216",
   credentials: {
