@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const fetchCache = "force-no-store";
+export const dynamic = "force-dynamic";
 
 export default function Home() {
   const [sheet, setSheet] = useState<string[][]>([]);
