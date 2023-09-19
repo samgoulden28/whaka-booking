@@ -6,8 +6,6 @@ import { FallingLines } from "react-loader-spinner";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export const fetchCache = "force-no-store";
-
 export default function Home() {
   const [sheet, setSheet] = useState<string[][]>([]);
   const [loading, setLoading] = useState(true);
