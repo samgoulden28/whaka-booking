@@ -1,15 +1,31 @@
-import { getGoogleSheetsData } from "@/utilities/server/sheets";
+"use client";
 import Image from "next/image";
-import { DataProvider } from "@/components/context/sheetsCtx";
 import { AccomodationRouter } from "@/components/AccomodationRouter";
+import { useEffect, useState } from "react";
+import { FallingLines } from "react-loader-spinner";
 
-export default async function Home() {
-  const range = `${process.env.NEXT_PUBLIC_SHEET_NAME}!${process.env.NEXT_PUBLIC_SHEET_RANGE}`;
-  const sheet = await getGoogleSheetsData(range);
+export default function Home() {
+  const [sheet, setSheet] = useState<string[][]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const get = async () => {
+      const response = await fetch("/api/sheets");
+      const sheet = await response.json();
+      setSheet(sheet);
+      setLoading(false);
+    };
+
+    get();
+  }, []);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {sheet ? <AccomodationRouter sheet={sheet} /> : null}
+      {loading ? (
+        <FallingLines color="#4fa94d" width="100" visible={true} />
+      ) : (
+        <AccomodationRouter sheet={sheet} />
+      )}
     </main>
   );
 }
