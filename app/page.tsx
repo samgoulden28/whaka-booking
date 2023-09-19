@@ -27,7 +27,7 @@ export default function Home() {
   useEffect(() => {
     const get = async () => {
       setLoading(true);
-      const response = await fetch("/api/sheets", { cache: "no-cache" });
+      const response = await fetch("/api/sheets", { cache: "no-store" });
       const sheet = await response.json();
       setSheet(sheet);
       setLoading(false);
