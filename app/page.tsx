@@ -53,9 +53,10 @@ export default function Home() {
               Welcome to Our Booking Page!
             </h1>
 
-            <p className="mb-3">
-              We're thrilled you're considering staying with us. Before you
-              proceed, here are some important things you should know:
+            <p className="mb-4">
+              We&apos;re thrilled you&apos;re considering staying with us.
+              Before you proceed, here are some important things you should
+              know:
             </p>
 
             <ul className="list-disc list-inside">
@@ -64,31 +65,31 @@ export default function Home() {
                 create headaches for Sam and Zoe.
               </li>
               <li className="mb-2">
-                <strong>Two-Night Stay:</strong> You'll need to book for both
-                Friday and Saturday nights. E.G if one night costs £99, your
-                total will be £198.
+                <strong>Two-Night Stay:</strong> You&apos;ll need to book for
+                both Friday and Saturday nights. E.G if one night costs
+                &pound;99, your total will be &pound;198.
               </li>
               <li className="mb-2">
-                <strong>Pay Sam & Zoe:</strong> All payments go directly to Sam
-                and Zoe via a provided Monzo link!
+                <strong>Pay Sam &amp; Zoe:</strong> All payments go directly to
+                Sam and Zoe via a provided Monzo link!
               </li>
               <li className="mb-2">
                 <strong>First-Come, First-Served:</strong> Rooms get booked
-                fast, so don't miss out!
+                fast, so don&apos;t miss out!
               </li>
               <li className="mb-2">
-                <strong>Deposit First:</strong> Make sure you've paid the
-                deposit before hitting the 'Book' button.
+                <strong>Deposit First:</strong> Make sure you&apos;ve paid the
+                deposit before hitting the &apos;Book&apos; button.
               </li>
               <li className="mb-4">
-                <strong>Final Step:</strong> Once you click 'Book', the
-                accommodation is all yours. So, be sure you're ready!
+                <strong>Final Step:</strong> Once you click &apos;Book&apos;,
+                the accommodation is all yours. So, be sure you&apos;re ready!
               </li>
             </ul>
 
             <p className="mb-4">
-              Close this modal when you're ready to make your booking. We look
-              forward to hosting you!
+              Close this modal when you&apos;re ready to make your booking. We
+              look forward to hosting you!
             </p>
 
             <button
