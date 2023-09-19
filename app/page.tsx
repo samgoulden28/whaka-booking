@@ -6,6 +6,8 @@ import { FallingLines } from "react-loader-spinner";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+export const fetchCache = "force-no-store";
+
 export default function Home() {
   const [sheet, setSheet] = useState<string[][]>([]);
   const [loading, setLoading] = useState(true);
@@ -25,7 +27,10 @@ export default function Home() {
   useEffect(() => {
     const get = async () => {
       setLoading(true);
-      const response = await fetch("/api/sheets", { cache: "no-store" });
+      const response = await fetch("/api/sheets", {
+        cache: "no-store",
+        next: { revalidate: 1 },
+      });
       const sheet = await response.json();
       setSheet(sheet);
       setLoading(false);
