@@ -6,6 +6,7 @@ import { NextRequest, NextResponse } from "next/server";
 const range = `${process.env.NEXT_PUBLIC_SHEET_NAME}!${process.env.NEXT_PUBLIC_SHEET_RANGE}`;
 
 export async function GET(request: NextRequest) {
+  revalidatePath("/api/sheets");
   const sheet = await getGoogleSheetsData(range);
   console.log("inside GET", sheet);
   revalidatePath("/");
