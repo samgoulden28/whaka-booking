@@ -30,9 +30,9 @@ export default function Home() {
       setLoading(true);
       const response = await fetch("/api/sheets", {
         cache: "no-store",
-        next: { revalidate: 1 },
+        next: { revalidate: 0 },
       });
-      const sheet = await response.json();
+      const { data: sheet } = await response.json();
       setSheet(sheet);
       setLoading(false);
     };

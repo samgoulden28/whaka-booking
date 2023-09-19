@@ -9,5 +9,5 @@ export async function GET(request: NextRequest) {
   const sheet = await getGoogleSheetsData(range);
   console.log("inside GET", sheet);
   revalidatePath("/");
-  return new Response(JSON.stringify(sheet), { status: 200 });
+  return NextResponse.json({ data: sheet, revalidated: true, now: Date.now() });
 }
