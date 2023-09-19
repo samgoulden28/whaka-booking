@@ -6,6 +6,8 @@ import { FallingLines } from "react-loader-spinner";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+export const fetchCache = "force-no-store";
+
 export default function Home() {
   const [sheet, setSheet] = useState<string[][]>([]);
   const [loading, setLoading] = useState(true);
@@ -61,28 +63,34 @@ export default function Home() {
 
             <ul className="list-disc list-inside">
               <li className="mb-2">
-                <strong>One Booking Only, Please:</strong> Multiple bookings can
-                create headaches for Sam and Zoe.
+                🤯 <strong>One Booking Only, Please:</strong> Multiple bookings
+                can create headaches for Sam and Zoe.
               </li>
               <li className="mb-2">
-                <strong>Two-Night Stay:</strong> You&apos;ll need to book for
-                both Friday and Saturday nights. E.G if one night costs
-                &pound;99, your total will be &pound;198.
+                🌙 <strong>Two-Night Adventure:</strong> Plan to stay both
+                Friday and Saturday nights. For example, if a night is
+                &pound;99, your full stay will sum up to &pound;198.
               </li>
               <li className="mb-2">
-                <strong>Pay Sam &amp; Zoe:</strong> All payments go directly to
-                Sam and Zoe via a provided Monzo link!
+                💳 <strong>Flexible Payments to Sam &amp; Zoe:</strong> Feel
+                free to pay the full amount now or later, but all payments must
+                be sent directly via our provided Monzo link!
               </li>
               <li className="mb-2">
-                <strong>First-Come, First-Served:</strong> Rooms get booked
+                📆 <strong>Payment Deadline:</strong> Whether you pay now or
+                later, remember that the full payment is due by{" "}
+                <strong>May 01, 2024</strong>.
+              </li>
+              <li className="mb-2">
+                ⏰ <strong>First-Come, First-Served:</strong> Rooms get booked
                 fast, so don&apos;t miss out!
               </li>
               <li className="mb-2">
-                <strong>Deposit First:</strong> Make sure you&apos;ve paid the
-                deposit before hitting the &apos;Book&apos; button.
+                💰 <strong>Deposit First:</strong> Make sure you&apos;ve paid
+                the deposit before hitting the &apos;Book&apos; button.
               </li>
               <li className="mb-4">
-                <strong>Final Step:</strong> Once you click &apos;Book&apos;,
+                🏁 <strong>Final Step:</strong> Once you click &apos;Book&apos;,
                 the accommodation is all yours. So, be sure you&apos;re ready!
               </li>
             </ul>
