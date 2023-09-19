@@ -1,12 +1,11 @@
 import { google } from "googleapis";
-
-export const fetchCache = "force-no-store";
+import { v4 } from "uuid";
 
 const auth = google.auth.getClient({
   projectId: "quick-line-389216",
   credentials: {
     type: "service_account",
-    token_url: "https://oauth2.googleapis.com/token",
+    token_url: `https://oauth2.googleapis.com/token?salt=${v4()}`, // cache buster
     universe_domain: "googleapis.com",
     private_key: process.env.GSHEETS_PRIVATE_KEY || "",
     client_email: process.env.GSHEETS_CLIENT_EMAIL || "",
@@ -22,6 +21,8 @@ export async function getGoogleSheetsData(range: string) {
     spreadsheetId: process.env.GSHEETS_SPREADSHEET_ID || "",
     range: range,
   });
+
+  console.log(data.data.values);
 
   return data.data.values;
 }
