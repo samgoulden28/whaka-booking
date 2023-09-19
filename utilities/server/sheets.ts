@@ -22,8 +22,6 @@ export async function getGoogleSheetsData(range: string) {
     range: range,
   });
 
-  console.log(data.data.values);
-
   return data.data.values;
 }
 
