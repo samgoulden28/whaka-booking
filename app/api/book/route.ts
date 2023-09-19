@@ -28,7 +28,7 @@ export async function POST(request: Request) {
     return new Response(JSON.stringify({ accomodationId }), { status: 200 });
   } catch (error) {
     // Handle errors
-    return new Response(JSON.stringify({ error: error.message }), {
+    return new Response(JSON.stringify({ error: (error as Error).message }), {
       status: 500,
     });
   }

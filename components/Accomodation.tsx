@@ -50,7 +50,7 @@ export function Accomodation() {
         </table>
         <Book
           sum={rentalPricePerNightAndPerAccommodation}
-          accomodationId={id}
+          accomodationId={Number(id)}
         />
       </div>
       <div className="max-w-2xl">
