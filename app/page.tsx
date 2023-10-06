@@ -52,7 +52,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between px-4 py-24 overflow-x-hidden">
       {showHelp && (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-10 overflow-x-hidden">
-          <div className="bg-white rounded-lg p-8 relative">
+          <div className="bg-white rounded-lg p-2 pt-8 relative">
             <button className="absolute top-2 right-2" onClick={closeModal}>
               X
             </button>
@@ -77,14 +77,13 @@ export default function Home() {
                 &pound;99, your full stay will sum up to &pound;198.
               </li>
               <li className="mb-2">
-                💳 <strong>Flexible Payments to Sam &amp; Zoe:</strong> Feel
-                free to pay the full amount now or later, but all payments must
-                be sent directly via our provided Monzo link!
+                💳 <strong>Flexible Payments to Sam &amp; Zoe:</strong> Deposits must be paid by <strong>April 01, 2024</strong> but you can feel free to pay the full amount whenever you wish
+                
               </li>
               <li className="mb-2">
                 📆 <strong>Payment Deadline:</strong> Whether you pay now or
                 later, remember that the full payment is due by{" "}
-                <strong>May 01, 2024</strong>.
+                <strong>July 01, 2024</strong>.
               </li>
               <li className="mb-2">
                 ⏰ <strong>First-Come, First-Served:</strong> Rooms get booked
