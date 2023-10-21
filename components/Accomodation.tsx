@@ -24,10 +24,11 @@ export function Accomodation() {
   } = row || {};
 
   const images: string[] = JSON.parse(s3Images).map((name: string) => {
+    const newName = name.replace(/(\d+)\.jpg$/, "$1_compressed.jpg");
     return createS3ImageUrl(
       S3_PROD_IMAGES_URL || "",
       s3FolderName as string,
-      name
+      newName
     );
   });
 

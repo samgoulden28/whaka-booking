@@ -31,7 +31,7 @@ export const AccomodationList = () => {
             const headerImage = createS3ImageUrl(
               S3_PROD_IMAGES_URL || "",
               s3FolderName as string,
-              "0.jpg"
+              "0_compressed.jpg"
             );
 
             return (
@@ -44,6 +44,7 @@ export const AccomodationList = () => {
                   className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                   src={headerImage}
                   alt=""
+                  loading="lazy"
                 />
                 <div className="flex flex-col justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
