@@ -14,12 +14,13 @@ export const Book = ({
   sum: string;
   accomodationId: number;
 }) => {
+  const noNights = 2;
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const [agreed, setAgreed] = useState(false);
   const [loading, setLoading] = useState(false);
   const deposit = Math.floor(Number(sum) * 0.2);
-  const remainder = Number(sum) - deposit;
+  const remainder = Number(sum) - deposit + Number(sum) * (noNights - 1);
   const { setRefresh } = useData();
 
   const book = async (info: any) => {

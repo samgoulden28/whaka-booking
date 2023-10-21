@@ -3,6 +3,7 @@ import { Carousel } from "@/components/carousel";
 import { useData } from "@/components/context/sheetsCtx";
 import { Book } from "@/components/book";
 import { useParams, redirect } from "react-router-dom";
+import { S3_PROD_IMAGES_URL, createS3ImageUrl } from "@/utilities/client/aws";
 
 export function Accomodation() {
   const { id } = useParams();
@@ -18,8 +19,17 @@ export function Accomodation() {
     maximumCapacity,
     rentalPricePerNightAndPerAccommodation,
     numberAvailableCurrent,
-    images,
+    s3FolderName,
+    s3Images,
   } = row || {};
+
+  const images: string[] = JSON.parse(s3Images).map((name: string) => {
+    return createS3ImageUrl(
+      S3_PROD_IMAGES_URL || "",
+      s3FolderName as string,
+      name
+    );
+  });
 
   //assign a variable true or false based on booking in the URL query params (if it exists)
   return (
@@ -57,7 +67,7 @@ export function Accomodation() {
         <span className="text-center">
           Tap the left and right arrows or swipe to see more pictures.
         </span>
-        <Carousel images={JSON.parse(images)} name={typeOfAccommodation} />
+        <Carousel images={images} name={typeOfAccommodation} />
       </div>
     </div>
   );
