@@ -19,6 +19,7 @@ export const Book = ({
   const [agreed, setAgreed] = useState(false);
   const [loading, setLoading] = useState(false);
   const deposit = Math.floor(Number(sum) * 0.2);
+  const remainder = Number(sum) - deposit;
   const { setRefresh } = useData();
 
   const book = async (info: any) => {
@@ -123,8 +124,9 @@ export const Book = ({
               </div>
               <div>
                 <label className="flex space-x-4 flex-col">
-                  I have paid Sam the deposit of £{deposit} (20%) and agree to
-                  pay the remainder by May 1st, 2024
+                  I have paid Sam the deposit of £{deposit} (20% of the first
+                  night) and agree to pay the remainder of £{remainder} by July
+                  1st, 2024
                   <input
                     className="border-solid border-2"
                     type="checkbox"

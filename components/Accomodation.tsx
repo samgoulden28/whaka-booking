@@ -23,7 +23,7 @@ export function Accomodation() {
 
   //assign a variable true or false based on booking in the URL query params (if it exists)
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between min-h-screen py-2 gap-3">
+    <div className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen py-2 gap-3">
       <div className="flex flex-col items-center max-w-2xl gap-1 md:w-1/2 ">
         {/* a toast in the top right that appears for 5 seconds and then disappears if the
         url /accomodation/${data.get("accomodationId")}&booked=true has true in the url */}
