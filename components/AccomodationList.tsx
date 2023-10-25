@@ -64,7 +64,7 @@ export const AccomodationList = () => {
                 </div>
                 <div className="flex flex-wrap md:flex-nowrap flex-row md:flex-col items-center justify-between mx-1 w-[300px] ">
                   <span className="text-3xl font-bold text-gray-900 basis-full md:basis-auto">
-                    {rentalPricePerNightAndPerAccommodation}
+                    £{rentalPricePerNightAndPerAccommodation}
                     <span className="text-sm">p/n</span>
                   </span>
                   <span className="text-gray-900 font-small rounded-lg text-sm no-wrap font-semibold">
