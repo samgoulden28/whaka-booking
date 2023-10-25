@@ -27,11 +27,19 @@ export const AccomodationList = () => {
               maximumCapacity,
               iD,
               numberAvailableCurrent,
+              numberOfRooms,
+              numberOfBathrooms,
+              headlineImage,
             } = row;
+            const newName = headlineImage.replace(
+              /(\d+)\.jpg$/,
+              "$1_compressed.jpg"
+            );
+
             const headerImage = createS3ImageUrl(
               S3_PROD_IMAGES_URL || "",
               s3FolderName as string,
-              "0_compressed.jpg"
+              newName
             );
 
             return (
@@ -54,16 +62,29 @@ export const AccomodationList = () => {
                     {description.slice(0, 100)}...
                   </p>
                 </div>
-                <div className="flex flex-row md:flex-col items-center justify-between mx-1 w-[300px] ">
-                  <span className="text-3xl font-bold text-gray-900 ">
-                    £{rentalPricePerNightAndPerAccommodation}
+                <div className="flex flex-wrap md:flex-nowrap flex-row md:flex-col items-center justify-between mx-1 w-[300px] ">
+                  <span className="text-3xl font-bold text-gray-900 basis-full md:basis-auto">
+                    {rentalPricePerNightAndPerAccommodation}
                     <span className="text-sm">p/n</span>
                   </span>
-                  <span className="text-gray-900 font-small rounded-lg text-sm no-wrap">
-                    Max People: {maximumCapacity}
+                  <span className="text-gray-900 font-small rounded-lg text-sm no-wrap font-semibold">
+                    Max People:{" "}
+                    <span className="font-normal"> {maximumCapacity}</span>
                   </span>
-                  <span className="text-gray-900 font-small rounded-lg text-sm no-wrap">
-                    Available: {numberAvailableCurrent}
+                  <span className="text-gray-900 font-small rounded-lg text-sm no-wrap font-semibold">
+                    Bedrooms:{" "}
+                    <span className="font-normal"> {numberOfRooms}</span>
+                  </span>
+                  <span className="text-gray-900 font-small rounded-lg text-sm no-wrap font-semibold">
+                    Bathrooms:{" "}
+                    <span className="font-normal"> {numberOfBathrooms}</span>
+                  </span>
+                  <span className="text-gray-900 font-small rounded-lg text-sm no-wrap font-semibold">
+                    Suites Available:{" "}
+                    <span className="font-normal">
+                      {" "}
+                      {numberAvailableCurrent}
+                    </span>
                   </span>
                 </div>
               </button>

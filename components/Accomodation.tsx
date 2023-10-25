@@ -21,6 +21,8 @@ export function Accomodation() {
     numberAvailableCurrent,
     s3FolderName,
     s3Images,
+    numberOfRooms,
+    numberOfBathrooms,
   } = row || {};
 
   const images: string[] = JSON.parse(s3Images).map((name: string) => {
@@ -52,6 +54,14 @@ export function Accomodation() {
               <td className="border px-4 py-2">
                 £{rentalPricePerNightAndPerAccommodation}
               </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">Number of Rooms</td>
+              <td className="border px-4 py-2">{numberOfRooms}</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">Number of Bathrooms</td>
+              <td className="border px-4 py-2">{numberOfBathrooms}</td>
             </tr>
             <tr>
               <td className="border px-4 py-2">Number Available Current:</td>
