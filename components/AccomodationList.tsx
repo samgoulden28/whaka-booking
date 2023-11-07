@@ -1,12 +1,20 @@
 "use client";
-import { convertRowToNamedObject } from "@/utilities/client/sheets";
+import { useState } from "react";
 import { S3_PROD_IMAGES_URL, createS3ImageUrl } from "@/utilities/client/aws";
 import { useData } from "./context/sheetsCtx";
 import { useNavigate } from "react-router";
+import FilterComponent from "./Filters";
 
 export const AccomodationList = () => {
   const navigate = useNavigate();
   const { namedSheet } = useData();
+  const [filters, setFilters] = useState({
+    minPeople: 0,
+    maxPeople: Infinity,
+    minBedrooms: 0,
+    maxBedrooms: Infinity,
+    tentsCaravans: false,
+  });
   const [, ...restNamed] = Array.isArray(namedSheet) ? namedSheet : [];
 
   return (
@@ -14,10 +22,27 @@ export const AccomodationList = () => {
       <span>
         <h2 className="text-4xl font-bold">Available Accomodation</h2>
       </span>
+      <FilterComponent filters={filters} setFilters={setFilters} />
       <div className="flex flex-col gap-3">
         {restNamed
           .filter(
-            ({ numberAvailableCurrent }) => Number(numberAvailableCurrent) > 0
+            ({
+              numberAvailableCurrent,
+              maximumCapacity,
+              numberOfRooms,
+              s3FolderName,
+            }) => {
+              return (
+                Number(numberAvailableCurrent) > 0 &&
+                Number(maximumCapacity) >= filters.minPeople &&
+                Number(maximumCapacity) <= (filters.maxPeople || 8) &&
+                (filters.tentsCaravans
+                  ? s3FolderName.includes("Tente nomade")
+                  : true) &&
+                Number(numberOfRooms) >= filters.minBedrooms &&
+                Number(numberOfRooms) <= filters.maxBedrooms
+              );
+            }
           )
           .map((row, index) => {
             const {
