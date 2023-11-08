@@ -20,6 +20,7 @@ export const Book = ({
   const [agreed, setAgreed] = useState(false);
   const [loading, setLoading] = useState(false);
   const deposit = Math.floor(Number(sum) * 0.2);
+  const total = Number(sum) * noNights;
   const remainder = Number(sum) - deposit + Number(sum) * (noNights - 1);
   const { setRefresh } = useData();
 
@@ -75,6 +76,8 @@ export const Book = ({
                   name: data.get("name"),
                   numPeople: data.get("numPeople"),
                   peopleNames: data.get("peopleNames"),
+                  depositAmount: deposit,
+                  totalAmount: total,
                 });
               }}
               className="flex flex-col gap-2 px-4 py-2"

@@ -49,7 +49,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-4 py-24 overflow-x-hidden">
+    <main className="flex min-h-screen flex-col items-center justify-between px-4 pb-24 pt-8 overflow-x-hidden">
       {showHelp && (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-10 overflow-x-hidden mt-5">
           <div className="bg-white rounded-lg p-2 pt-8 relative">

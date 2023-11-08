@@ -21,7 +21,7 @@ export const AccomodationList = () => {
   return (
     <>
       <span>
-        <h2 className="text-4xl font-bold">Available Accomodation</h2>
+        <h2 className="text-4xl font-bold">Available Accommodation</h2>
       </span>
       <FilterComponent filters={filters} setFilters={setFilters} />
       <div className="flex flex-col gap-3">
@@ -57,6 +57,7 @@ export const AccomodationList = () => {
               numberOfBathrooms,
               headlineImage,
             } = row;
+
             const newName = headlineImage.replace(
               /(\d+)\.jpg$/,
               "$1_compressed.jpg"

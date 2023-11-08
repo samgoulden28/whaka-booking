@@ -7,7 +7,7 @@ export async function GET(request: Request) {
 export async function POST(request: Request) {
   try {
     // Parse the request body
-    const { accomodationId, name, numPeople, peopleNames } =
+    const { accomodationId, name, numPeople, peopleNames, depositAmount, totalAmount } =
       await request.json();
 
     // Validate email and password (you can add more robust validation)
@@ -22,6 +22,8 @@ export async function POST(request: Request) {
       name,
       numPeople,
       peopleNames,
+      depositAmount: Number(depositAmount),
+      totalAmount: Number(totalAmount)
     });
 
     // Respond with the created user or a success message
