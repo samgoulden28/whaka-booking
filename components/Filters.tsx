@@ -3,7 +3,8 @@ import Image from "next/image";
 import filterIcon from "@/public/filter.png";
 import resetIcon from "@/public/reset.png";
 import cx from "classnames";
-type Filters = {
+import { filtersInitial } from "./AccomodationList";
+export type Filters = {
   minPeople: number;
   maxPeople: number;
   tentsCaravans: boolean;
@@ -21,7 +22,23 @@ const FilterComponent = ({ filters, setFilters }: FilterComponentProps) => {
   const [height, setHeight] = useState(0);
   const handleFilterChange: ChangeEventHandler<HTMLInputElement> = (e) => {
     const { name, value, type, checked } = e.target as HTMLInputElement;
-    const val = type === "checkbox" ? checked : value;
+    let val = type === "checkbox" ? checked : value;
+    switch (name) {
+      case "maxPeople":
+        val = "" + Math.min(Number(val), 7);
+        break;
+      case "maxBedrooms":
+        val = "" + Math.min(Number(val), 3);
+        break;
+      case "minPeople":
+        val = "" + Math.max(Number(val), 0);
+        break;
+      case "minBedrooms":
+        val = "" + Math.max(Number(val), 0);
+        break;
+      default:
+        break;
+    }
     setFilters({ ...filters, [name]: val });
   };
 
@@ -38,22 +55,17 @@ const FilterComponent = ({ filters, setFilters }: FilterComponentProps) => {
 
   // update these classes so the component animates in and out.
   const filtersClassName = cx(
-    "flex w-full flex-wrap mt-4 overflow-hidden transition-max-height duration-300 ease-in-out height-0",
-    { "height-auto": !active }
+    "flex w-full flex-wrap overflow-hidden transition-max-height duration-300 ease-in-out height-0",
+    { "height-auto": active },
+    { "mt-4": active }
   );
 
   const resetFilters = () => {
-    setFilters({
-      minPeople: 0,
-      maxPeople: Infinity,
-      minBedrooms: 0,
-      maxBedrooms: Infinity,
-      tentsCaravans: false,
-    });
+    setFilters(filtersInitial);
   };
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md max-w-2xl  mb-4">
+    <div className="bg-white p-4 rounded-lg shadow-md max-w-2xl mb-4">
       <div
         onClick={() => setActive(!active)}
         className="flex items-center justify-between cursor-pointer hover:bg-slate-200 rounded"
@@ -116,7 +128,9 @@ const FilterComponent = ({ filters, setFilters }: FilterComponentProps) => {
             onChange={handleFilterChange}
             className="form-checkbox h-5 w-5 text-blue-600"
           />
-          <span className="ml-2 text-gray-700">Only show tents</span>
+          <span className="ml-2 text-gray-700 whitespace-nowrap">
+            Only show tents
+          </span>
         </label>
         <label className="w-1/2 p-2 flex justify-center align-center items-center mt-3">
           <div

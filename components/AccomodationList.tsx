@@ -3,18 +3,19 @@ import { useState } from "react";
 import { S3_PROD_IMAGES_URL, createS3ImageUrl } from "@/utilities/client/aws";
 import { useData } from "./context/sheetsCtx";
 import { useNavigate } from "react-router";
-import FilterComponent from "./Filters";
+import FilterComponent, { Filters } from "./Filters";
 
+export const filtersInitial: Filters = {
+  minPeople: 0,
+  maxPeople: 7,
+  minBedrooms: 0,
+  maxBedrooms: 3,
+  tentsCaravans: false,
+};
 export const AccomodationList = () => {
   const navigate = useNavigate();
   const { namedSheet } = useData();
-  const [filters, setFilters] = useState({
-    minPeople: 0,
-    maxPeople: Infinity,
-    minBedrooms: 0,
-    maxBedrooms: Infinity,
-    tentsCaravans: false,
-  });
+  const [filters, setFilters] = useState(filtersInitial);
   const [, ...restNamed] = Array.isArray(namedSheet) ? namedSheet : [];
 
   return (
