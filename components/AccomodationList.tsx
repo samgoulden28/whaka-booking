@@ -34,7 +34,6 @@ export const AccomodationList = () => {
               s3FolderName,
             }) => {
               return (
-                Number(numberAvailableCurrent) > 0 &&
                 Number(maximumCapacity) >= filters.minPeople &&
                 Number(maximumCapacity) <= (filters.maxPeople || 8) &&
                 (filters.tentsCaravans

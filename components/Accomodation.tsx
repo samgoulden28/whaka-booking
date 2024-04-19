@@ -69,10 +69,14 @@ export function Accomodation() {
             </tr>
           </tbody>
         </table>
-        <Book
-          sum={rentalPricePerNightAndPerAccommodation}
-          accomodationId={Number(id)}
-        />
+        {Number(numberAvailableCurrent) > 0 ? (
+          <Book
+            sum={rentalPricePerNightAndPerAccommodation}
+            accomodationId={Number(id)}
+          />
+        ) : (
+          "Accomodation Fully booked!"
+        )}
       </div>
       <div className="md:max-w-2xl md:w-1/2 max-w-xs flex flex-col">
         <span className="text-center">
